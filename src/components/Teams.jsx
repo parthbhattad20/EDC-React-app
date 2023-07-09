@@ -1,8 +1,15 @@
 import React from "react";
+import Swaroop from "../assests/swaroop.jpg"
+import Shreekar from "../assests/EDC SHREEKAR.jpg"
+import ruchita  from "../assests/ruchita.jpg"
+import anushray from "../assests/anushray.png"
+import prithvi from "../assests/prithvi .png"
+import prathamesh from "../assests/prathamesh.jpg"
+import mitesh from "../assests/mitesh.jpg"
 
 const Teams = () => {
     return (
-        <div name="team">
+        <div>
             <section className="bg-gradient-to-b from-gray-800 to-black">
                 <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
                     <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
@@ -19,23 +26,23 @@ const Teams = () => {
                         <div className="text-center text-gray-500 dark:text-gray-400">
                             <img
                                 className="mx-auto mb-4 w-36 h-36 rounded-full"
-                                src="/assests/badge.png"
+                                src={Swaroop}
                                 alt="Swaroop avatar"
                             />
                             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="www.google.com">Swaroop Bharaskar</a>
+                                <a href="#">Swaroop Bharaskar</a>
                             </h3>
-                            <p>G.S</p>
+                            <p>General Secretery</p>
                            
                         </div>
                         <div className="text-center text-gray-500 dark:text-gray-400">
                             <img
                                 className="mx-auto mb-4 w-36 h-36 rounded-full"
-                                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/helene-engels.png"
+                                src={Shreekar}
                                 alt="Helene Avatar"
                             />
                             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="www.google.com">Swaroop Bharaskar</a>
+                                <a href="#">Swaroop Bharaskar</a>
                             </h3>
                             <p>CTO/Co-founder</p>
                            
@@ -47,7 +54,7 @@ const Teams = () => {
                                 alt="Jese Avatar"
                             />
                             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="www.google.com">Jese Leos</a>
+                                <a href="#">Jese Leos</a>
                             </h3>
                             <p>SEO & Marketing</p>
                             
@@ -59,7 +66,7 @@ const Teams = () => {
                                 alt="Joseph Avatar"
                             />
                             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="www.google.com">Joseph Mcfall</a>
+                                <a href="#">Joseph Mcfall</a>
                             </h3>
                             <p>Sales</p>
                             
@@ -71,7 +78,7 @@ const Teams = () => {
                                 alt="Sofia Avatar"
                             />
                             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="www.google.com">Lana Byrd</a>
+                                <a href="#">Lana Byrd</a>
                             </h3>
                             <p>Web Designer</p>
                             
@@ -83,7 +90,7 @@ const Teams = () => {
                                 alt="Leslie Avatar"
                             />
                             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="www.google.com">Leslie Livingston</a>
+                                <a href="#">Leslie Livingston</a>
                             </h3>
                             <p>Graphic Designer</p>
                            
@@ -95,7 +102,7 @@ const Teams = () => {
                                 alt="Michael Avatar"
                             />
                             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="www.google.com">Michael Gough</a>
+                                <a href="#">Michael Gough</a>
                             </h3>
                             <p>React Developer</p>
                             
@@ -107,7 +114,7 @@ const Teams = () => {
                                 alt="Neil Avatar"
                             />
                             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="www.google.com">Neil Sims</a>
+                                <a href="#">Neil Sims</a>
                             </h3>
                             <p>Vue.js Developer</p>
                            

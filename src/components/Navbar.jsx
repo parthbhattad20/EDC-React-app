@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
+import logo from "../assests/changedlogo.jpg";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -16,18 +17,22 @@ const Navbar = () => {
     },
     {
       id: 3,
-      link: "team",
+      link: "portfolio",
     },
     {
       id: 4,
+      link: "experience",
+    },
+    {
+      id: 5,
       link: "contact",
-    }
+    },
   ];
 
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black  absolute ">
       <div>
-        <h1 className="text-5xl font-signature ml-2">E-Cell</h1>
+        <img src={logo} alt="logo edc " className="h-[65px]" />
       </div>
 
       <ul className="hidden md:flex">
@@ -37,9 +42,7 @@ const Navbar = () => {
             className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
           >
            
-           <Link to={link} smooth duration={500}>
               {link}
-            </Link>
             
           </li>
         ))}
@@ -60,14 +63,8 @@ const Navbar = () => {
               className="px-4 cursor-pointer capitalize py-6 text-4xl"
             >
              
-                    <Link
-                onClick={() => setNav(!nav)}
-                to={link}
-                smooth
-                duration={500}
-              >
                 {link}
-              </Link>
+             
             </li>
           ))}
         </ul>
