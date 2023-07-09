@@ -23,7 +23,7 @@ const Teams = () => {
                                 alt="Swaroop avatar"
                             />
                             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="#">Swaroop Bharaskar</a>
+                                <a href="www.google.com">Swaroop Bharaskar</a>
                             </h3>
                             <p>G.S</p>
                            
@@ -35,7 +35,7 @@ const Teams = () => {
                                 alt="Helene Avatar"
                             />
                             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="#">Swaroop Bharaskar</a>
+                                <a href="www.google.com">Swaroop Bharaskar</a>
                             </h3>
                             <p>CTO/Co-founder</p>
                            
@@ -47,7 +47,7 @@ const Teams = () => {
                                 alt="Jese Avatar"
                             />
                             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="#">Jese Leos</a>
+                                <a href="www.google.com">Jese Leos</a>
                             </h3>
                             <p>SEO & Marketing</p>
                             
@@ -59,7 +59,7 @@ const Teams = () => {
                                 alt="Joseph Avatar"
                             />
                             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="#">Joseph Mcfall</a>
+                                <a href="www.google.com">Joseph Mcfall</a>
                             </h3>
                             <p>Sales</p>
                             
@@ -71,7 +71,7 @@ const Teams = () => {
                                 alt="Sofia Avatar"
                             />
                             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="#">Lana Byrd</a>
+                                <a href="www.google.com">Lana Byrd</a>
                             </h3>
                             <p>Web Designer</p>
                             
@@ -83,7 +83,7 @@ const Teams = () => {
                                 alt="Leslie Avatar"
                             />
                             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="#">Leslie Livingston</a>
+                                <a href="www.google.com">Leslie Livingston</a>
                             </h3>
                             <p>Graphic Designer</p>
                            
@@ -95,7 +95,7 @@ const Teams = () => {
                                 alt="Michael Avatar"
                             />
                             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="#">Michael Gough</a>
+                                <a href="www.google.com">Michael Gough</a>
                             </h3>
                             <p>React Developer</p>
                             
@@ -107,7 +107,7 @@ const Teams = () => {
                                 alt="Neil Avatar"
                             />
                             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="#">Neil Sims</a>
+                                <a href="www.google.com">Neil Sims</a>
                             </h3>
                             <p>Vue.js Developer</p>
                            
