@@ -1,7 +1,8 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+// import { BsFillPersonLinesFill } from "react-icons/bs";
+import { AiOutlineInstagram } from "react-icons/ai";
 
 const SocialLinks = () => {
     const links = [
@@ -9,45 +10,45 @@ const SocialLinks = () => {
             id: 1,
             child: (
                 <>
-                     <FaLinkedin size={20} />
+                    <FaLinkedin size={20} />
                 </>
             ),
-            href: "https://www.linkedin.com/in/parth-bhattad-21a38022a/?originalSubdomain=in",
+            href: "https://www.linkedin.com/company/edcpvg/",
             style: "rounded-tr-md",
         },
         {
             id: 2,
             child: (
                 <>
-                     <FaGithub size={20} />
+                    <AiOutlineInstagram size={20} />
                 </>
             ),
-            href: "https://github.com/parthbhattad20",
+            href: "https://www.instagram.com/edc_pvg/?hl=en",
         },
         {
             id: 3,
             child: (
                 <>
-                     <HiOutlineMail size={20} />
+                    <HiOutlineMail size={20} />
                 </>
             ),
-            href: "mailto:bhattadparth20@gmail.com",
+            href: "mailto:edcpvg@gmail.com",
         },
-        {
-            id: 4,
-            child: (
-                <>
-                     <BsFillPersonLinesFill size={20} />
-                </>
-            ),
-            href: "https://drive.google.com/file/d/15tc0hw2XHdDGu9QDJuoS8Lw-pFYIRV0E/view?usp=drive_link",
-            style: "rounded-br-md",
-            download: true,
-        },
+        // {
+        //     id: 4,
+        //     child: (
+        //         <>
+        //              <BsFillPersonLinesFill size={20} />
+        //         </>
+        //     ),
+        //     href: "https://drive.google.com/file/d/15tc0hw2XHdDGu9QDJuoS8Lw-pFYIRV0E/view?usp=drive_link",
+        //     style: "rounded-br-md",
+        //     download: true,
+        // },
     ];
 
     return (
-        <div className=" lg:flex flex-col top-[35%] right-0 fixed">
+        <div className=" lg:flex flex-col top-[65%] right-0 fixed">
             <ul>
                 {links.map(({ id, child, href, style, download }) => (
                     <li
