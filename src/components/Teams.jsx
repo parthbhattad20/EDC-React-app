@@ -9,7 +9,7 @@ import Shreekar from "../assests/EDC SHREEKAR.jpg"
 
 const Teams = () => {
     return (
-        <div>
+        <div name="team">
             <section className="bg-gradient-to-b from-gray-800 to-black">
                 <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
                     <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
