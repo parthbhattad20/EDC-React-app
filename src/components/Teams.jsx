@@ -1,194 +1,75 @@
 import React from "react";
 import Swaroop from "../assests/swaroop.jpg";
-import Shreekar from "../assests/EDC SHREEKAR.jpg";
+// import Shreekar from "../assests/EDC SHREEKAR.jpg";
 import ruchita from "../assests/ruchita.jpg";
-import anushray from "../assests/anushray.png";
-import prithvi from "../assests/prithvi .png";
-import prathamesh from "../assests/prathamesh.jpg";
-import mitesh from "../assests/mitesh.jpg";
-import Gauri from "../assests/gauri.jpeg";
+// import anushray from "../assests/anushray.png";
+// import prithvi from "../assests/prithvi .png";
+// import prathamesh from "../assests/prathamesh.jpg";
+// import mitesh from "../assests/mitesh.jpg";
+// import Gauri from "../assests/gauri.jpeg";
 import pritam from "../assests/pritam.jpg";
 
 const Teams = () => {
     return (
         <div name="team">
-            <section className="bg-gradient-to-b from-gray-800 to-black">
-                <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
-                    <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
-                        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-cyan-400 border-b-4 border-yellow-500 ">
-                            Our team
-                        </h2>
-                        <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400"></p>
-                    </div>
-                    <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-                        <div className="text-center text-gray-500 dark:text-gray-400">
-                            <img
-                                className="mx-auto mb-4 w-36 h-36 rounded-full"
-                                src={Swaroop}
-                                alt="Swaroop avatar"
-                            />
-                            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="www.google.com">Swaroop Bharaskar</a>
-                            </h3>
-                            <p>General Secretary</p>
-                        </div>
-                        <div className="text-center text-gray-500 dark:text-gray-400">
-                            <img
-                                className="mx-auto mb-4 w-36 h-36 rounded-full"
-                                src=""
-                                alt="sharvari Avatar"
-                            />
-                            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="www.google.com">Sharvari Karhe </a>
-                            </h3>
-                            <p>Jt. General Secretary</p>
-                        </div>
-                        <div className="text-center text-gray-500 dark:text-gray-400">
-                            <img
-                                className="mx-auto mb-4 w-36 h-36 rounded-full"
-                                src={Shreekar}
-                                alt="shreekar Avatar"
-                            />
-                            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="www.google.com">Shreekar Kulkarni</a>
-                            </h3>
-                            <p>Treasurer</p>
-                        </div>
-                        <div className="text-center text-gray-500 dark:text-gray-400">
-                            <img
-                                className="mx-auto mb-4 w-36 h-36 rounded-full"
-                                src={anushray}
-                                alt="anushray Avatar"
-                            />
-                            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="www.google.com">Anushray Pingale</a>
-                            </h3>
-                            <p>Head of sponsorship</p>
-                        </div>
-                        <div className="text-center text-gray-500 dark:text-gray-400">
-                            <img
-                                className="mx-auto mb-4 w-36 h-36 rounded-full"
-                                src={ruchita}
-                                alt="ruchita Avatar"
-                            />
-                            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="www.google.com">Ruchita Kagne</a>
-                            </h3>
-                            <p>Thrust secretary </p>
-                        </div>
-                        <div className="text-center text-gray-500 dark:text-gray-400">
-                            <img
-                                className="mx-auto mb-4 w-36 h-36 rounded-full"
-                                src={mitesh}
-                                alt="mitesh Avatar"
-                            />
-                            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="www.google.com">Mitesh Kulkarni</a>
-                            </h3>
-                            <p>Media Head</p>
-                        </div>
-                        <div className="text-center text-gray-500 dark:text-gray-400">
-                            <img
-                                className="mx-auto mb-4 w-36 h-36 rounded-full"
-                                src={prathamesh}
-                                alt="prathamesh Avatar"
-                            />
-                            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="www.google.com">Prathamesh Bhagwat</a>
-                            </h3>
-                            <p>Design Head</p>
-                        </div>
-                        <div className="text-center text-gray-500 dark:text-gray-400">
-                            <img
-                                className="mx-auto mb-4 w-36 h-36 rounded-full"
-                                src=""
-                                alt="Parth Avatar"
-                            />
-                            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="www.google.com">Parth Bhattad</a>
-                            </h3>
-                            <p>Technical Head</p>
-                        </div>
-                        <div className="text-center text-gray-500 dark:text-gray-400">
-                            <img
-                                className="mx-auto mb-4 w-36 h-36 rounded-full"
-                                src={prithvi}
-                                alt="prithvi Avatar"
-                            />
-                            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="www.google.com">Prithviraj Patil</a>
-                            </h3>
-                            <p>NEC Head</p>
-                        </div>
-                        <div className="text-center text-gray-500 dark:text-gray-400">
-                            <img
-                                className="mx-auto mb-4 w-36 h-36 rounded-full"
-                                src={pritam}
-                                alt="Pritam Avatar"
-                            />
-                            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="www.google.com">Pritam Patil</a>
-                            </h3>
-                            <p>Public Relation Head</p>
-                        </div>
-                        <div className="text-center text-gray-500 dark:text-gray-400">
-                            <img
-                                className="mx-auto mb-4 w-36 h-36 rounded-full"
-                                src=""
-                                alt="jayesh Avatar"
-                            />
-                            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="www.google.com">Jayesh Suryawanshi</a>
-                            </h3>
-                            <p>Startup Executive</p>
-                        </div>
-                        <div className="text-center text-gray-500 dark:text-gray-400">
-                            <img
-                                className="mx-auto mb-4 w-36 h-36 rounded-full"
-                                src=""
-                                alt="Rajasee Avatar"
-                            />
-                            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="www.google.com">Rajasee Thakre</a>
-                            </h3>
-                            <p>Content Developement Head</p>
-                        </div>
-                        <div className="text-center text-gray-500 dark:text-gray-400">
-                            <img
-                                className="mx-auto mb-4 w-36 h-36 rounded-full"
-                                src={Gauri}
-                                alt="Gauri Avatar"
-                            />
-                            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="www.google.com">Gauri Jadhav</a>
-                            </h3>
-                            <p>Asthetics Head</p>
-                        </div>
-                        <div className="text-center text-gray-500 dark:text-gray-400">
-                            <img
-                                className="mx-auto mb-4 w-36 h-36 rounded-full"
-                                src=""
-                                alt="shreya1 Avatar"
-                            />
-                            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="www.google.com">Shreya V. Patil</a>
-                            </h3>
-                            <p>Documentation Head</p>
-                        </div>
-                        <div className="text-center text-gray-500 dark:text-gray-400">
-                            <img
-                                className="mx-auto mb-4 w-36 h-36 rounded-full"
-                                src=""
-                                alt="Shreya 2 avatar"
-                            />
-                            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="www.google.com">Shreya S. Patil</a>
-                            </h3>
-                            <p>Documentation Co-Head</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <div className="py-20 bg-gradient-to-b from-gray-800  to-black">
+      <div className="container mx-auto px-6 md:px-12 xl:px-32">
+        <div className="mb-16 text-center">
+          <h2 className="mb-4 text-center text-2xl text-gray-900 font-bold md:text-4xl">
+            Tailus blocks leadership
+          </h2>
+          <p className="text-gray-600 lg:w-8/12 lg:mx-auto">
+            Tailus prides itself not only on award-winning technology, but also on the talent of its
+            people of some of the brightest minds and most experienced executives in business.
+          </p>
+        </div>
+        <div className="grid gap-12 items-center md:grid-cols-3">
+          <div className="space-y-4 text-center">
+            <img
+              className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
+              src={Swaroop}
+              alt="woman"
+              loading="lazy"
+              width="640"
+              height="805"
+            />
+            <div>
+              <h4 className="text-2xl text-white">Swaroop Bharaskar</h4>
+              <span className="block text-sm text-gray-500">General Secretary</span>
+            </div>
+          </div>
+          <div className="space-y-4 text-center">
+            <img
+              className="w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-64 lg:w-64 lg:h-64"
+              src={ruchita}
+              alt="man"
+              loading="lazy"
+              width="1000"
+              height="667"
+            />
+            <div>
+              <h4 className="text-2xl">Jonathan Doe</h4>
+              <span className="block text-sm text-gray-500">Chief Technical Officer</span>
+            </div>
+          </div>
+          <div className="space-y-4 text-center">
+            <img
+              className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
+              src={pritam}
+              alt="woman"
+              loading="lazy"
+              width="1000"
+              height="667"
+            />
+            <div>
+              <h4 className="text-2xl">Anabelle Doe</h4>
+              <span className="block text-sm text-gray-500">Chief Operations Officer</span>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
         </div>
     );
 };

@@ -4,7 +4,9 @@ import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import SocialLinks from "./components/SocialLinks";
+import TeamSection from "./components/TeamSection";
 import Teams from "./components/Teams";
+
 import Whatwedo from "./components/Whatwedo";
 
 function App() {
@@ -14,7 +16,7 @@ function App() {
        <div><Home/></div>
        <div ><About/></div>
        <div ><Whatwedo/></div>
-       <div ><Teams/></div>
+       <div><Teams/></div>
        <div ><Contact/></div>
        <div ><SocialLinks/></div>
     </div>
