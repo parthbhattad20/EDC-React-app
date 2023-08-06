@@ -4,7 +4,7 @@ import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import SocialLinks from "./components/SocialLinks";
-import TeamSection from "./components/TeamSection";
+// import TeamSection from "./components/TeamSection";
 import Teams from "./components/Teams";
 
 import Whatwedo from "./components/Whatwedo";
