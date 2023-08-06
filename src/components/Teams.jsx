@@ -1,7 +1,7 @@
 import React from "react";
 import Swaroop from "../assests/swaroop.jpg";
 // import Shreekar from "../assests/EDC SHREEKAR.jpg";
-import ruchita from "../assests/ruchita.jpg";
+import ruchita from "../assests/ruchita.jpeg";
 // import anushray from "../assests/anushray.png";
 // import prithvi from "../assests/prithvi .png";
 // import prathamesh from "../assests/prathamesh.jpg";
