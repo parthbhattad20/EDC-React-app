@@ -1,5 +1,6 @@
 import React from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { Fade,Slide } from "react-awesome-reveal";
 
 
 const Home = () => {
@@ -10,17 +11,21 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full mt-10 w-full">
+          <Fade triggerOnce={true}>
           <h2 className="text-4xl sm:text-7xl font-bold text-cyan-400  mt-20 ">
           Welcome to  E-cell PVG!
           </h2>
-          <p className="text-white py-4 max-w-screen-lg w-full text-2xl  ">
+          
+          <p className="text-white py-4 max-w-screen-lg w-full lg:text-2xl  ">
            
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing  
 
 
           </p>
+          </Fade>
 
           <div>
+            <Slide triggerOnce={true}>
             <a
               href="https://ecell-events.netlify.app/"
               smooth
@@ -32,8 +37,10 @@ const Home = () => {
                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>
             </a>
+            </Slide>
           </div>
         </div>
+        
 
         {/* <div>
           <img
