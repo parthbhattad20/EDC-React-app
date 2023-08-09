@@ -12,10 +12,10 @@ import pritam from "../assests/pritam.jpg";
 const Teams = () => {
     return (
         <div name="team">
-            <div className="py-20  to-black">
-      <div className="container mx-auto px-6 md:px-12 xl:px-32">
-        <div className="mb-16 text-center">
-          <h2 className="mb-4 text-center text-2xl text-cyan-400 font-bold md:text-4xl">
+            <div className="py-20">
+      <div className="container mx-auto px-6 md:px-12 xl:px-32 ">
+        <div className="mb-16">
+          <h2 className=" text-4xl mb-4 text-2xl text-cyan-400 font-bold md:text-4xl max-w-screen-md">
            Meet the team
           </h2>
           <p className="text-gray-600 lg:w-8/12 lg:mx-auto">

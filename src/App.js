@@ -1,11 +1,10 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
-// import Events from "./components/Events";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import SocialLinks from "./components/SocialLinks";
-// import TeamSection from "./components/TeamSection";
 import Teams from "./components/Teams";
+import Footer from "./components/Footer";
 
 import Whatwedo from "./components/Whatwedo";
 
@@ -18,6 +17,7 @@ function App() {
        <div ><Whatwedo/></div>
        <div><Teams/></div>
        <div ><Contact/></div>
+       <div><Footer/></div>
        <div ><SocialLinks/></div>
     </div>
   );
