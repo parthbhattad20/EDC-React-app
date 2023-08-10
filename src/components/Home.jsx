@@ -3,6 +3,14 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Fade,Slide } from "react-awesome-reveal";
 
 
+
+
+
+
+
+
+
+
 const Home = () => {
   return (
     <div
@@ -12,9 +20,11 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full mt-10 w-full">
           <Fade triggerOnce={true}>
+           
           <h2 className="text-4xl sm:text-7xl font-bold text-cyan-400  mt-20 ">
-          Welcome to  E-cell PVG!
+          Welcome to  E-cell PVG
           </h2>
+     
           
           <p className="text-white py-4 max-w-screen-lg w-full lg:text-2xl  ">
            

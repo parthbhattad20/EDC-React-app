@@ -8,7 +8,7 @@ const Footer = () => {
 <footer
   class="text-center lg:text-left">
   <div class="p-4 text-center text-white ">
-    © 2023 Copyright:
+    © 2023 Copyright
     <Slide triggerOnce={true}>
     <a
       class="text-white"
