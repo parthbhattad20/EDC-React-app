@@ -57,8 +57,8 @@ const Teams = () => {
             </Slide>
             <div>
             <Fade triggerOnce={true}>
-              <h4 className="text-2xl">Jonathan Doe</h4>
-              <span className="block text-sm text-gray-500">Chief Technical Officer</span>
+              <h4 className="text-2xl text-white">Swaroop Bharaskar</h4>
+              <span className="block text-sm text-gray-500">General Secretary</span>
               </Fade>
             </div>
           </div>
@@ -75,8 +75,8 @@ const Teams = () => {
             </Slide>
             <div>
               <Fade triggerOnce={true}>
-              <h4 className="text-2xl">Anabelle Doe</h4>
-              <span className="block text-sm text-gray-500">Chief Operations Officer</span>
+              <h4 className="text-2xl text-white">Swaroop Bharaskar</h4>
+              <span className="block text-sm text-gray-500">General Secretary</span>
               </Fade>
             </div>
 
@@ -118,8 +118,8 @@ const Teams = () => {
             </Slide>
             <div>
             <Fade triggerOnce={true}>
-              <h4 className="text-2xl">Jonathan Doe</h4>
-              <span className="block text-sm text-gray-500">Chief Technical Officer</span>
+              <h4 className="text-2xl text-white">Swaroop Bharaskar</h4>
+              <span className="block text-sm text-gray-500">General Secretary</span>
               </Fade>
             </div>
           </div>
@@ -136,8 +136,8 @@ const Teams = () => {
             </Slide>
             <div>
               <Fade triggerOnce={true}>
-              <h4 className="text-2xl">Anabelle Doe</h4>
-              <span className="block text-sm text-gray-500">Chief Operations Officer</span>
+              <h4 className="text-2xl text-white">Swaroop Bharaskar</h4>
+              <span className="block text-sm text-gray-500">General Secretary</span>
               </Fade>
             </div>
 
@@ -179,8 +179,8 @@ const Teams = () => {
             </Slide>
             <div>
             <Fade triggerOnce={true}>
-              <h4 className="text-2xl">Jonathan Doe</h4>
-              <span className="block text-sm text-gray-500">Chief Technical Officer</span>
+              <h4 className="text-2xl text-white">Swaroop Bharaskar</h4>
+              <span className="block text-sm text-gray-500">General Secretary</span>
               </Fade>
             </div>
           </div>
@@ -197,8 +197,8 @@ const Teams = () => {
             </Slide>
             <div>
               <Fade triggerOnce={true}>
-              <h4 className="text-2xl">Anabelle Doe</h4>
-              <span className="block text-sm text-gray-500">Chief Operations Officer</span>
+              <h4 className="text-2xl text-white">Swaroop Bharaskar</h4>
+              <span className="block text-sm text-gray-500">General Secretary</span>
               </Fade>
             </div>
 
@@ -240,8 +240,8 @@ const Teams = () => {
             </Slide>
             <div>
             <Fade triggerOnce={true}>
-              <h4 className="text-2xl">Jonathan Doe</h4>
-              <span className="block text-sm text-gray-500">Chief Technical Officer</span>
+              <h4 className="text-2xl text-white">Swaroop Bharaskar</h4>
+              <span className="block text-sm text-gray-500">General Secretary</span>
               </Fade>
             </div>
           </div>
@@ -258,8 +258,8 @@ const Teams = () => {
             </Slide>
             <div>
               <Fade triggerOnce={true}>
-              <h4 className="text-2xl">Anabelle Doe</h4>
-              <span className="block text-sm text-gray-500">Chief Operations Officer</span>
+              <h4 className="text-2xl text-white">Swaroop Bharaskar</h4>
+              <span className="block text-sm text-gray-500">General Secretary</span>
               </Fade>
             </div>
 
@@ -301,8 +301,8 @@ const Teams = () => {
             </Slide>
             <div>
             <Fade triggerOnce={true}>
-              <h4 className="text-2xl">Jonathan Doe</h4>
-              <span className="block text-sm text-gray-500">Chief Technical Officer</span>
+              <h4 className="text-2xl text-white">Swaroop Bharaskar</h4>
+              <span className="block text-sm text-gray-500">General Secretary</span>
               </Fade>
             </div>
           </div>
@@ -319,8 +319,8 @@ const Teams = () => {
             </Slide>
             <div>
               <Fade triggerOnce={true}>
-              <h4 className="text-2xl">Anabelle Doe</h4>
-              <span className="block text-sm text-gray-500">Chief Operations Officer</span>
+              <h4 className="text-2xl text-white">Swaroop Bharaskar</h4>
+              <span className="block text-sm text-gray-500">General Secretary</span>
               </Fade>
             </div>
 
