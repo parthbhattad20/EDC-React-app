@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 
 const NavBar = () => {
   return (
-    <nav className="bg-gray-800 p-4 fixed w-full top-0 z-10">
+    <nav className="bg-[#474B4F] p-4 fixed w-full top-0 z-10">
       <div className="container mx-auto flex justify-center">
         <ul className="flex space-x-6">
           <li className="nav-item">
@@ -14,7 +14,7 @@ const NavBar = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              className="text-white cursor-pointer transition-colors hover:text-blue-500"
+              className="text-white cursor-pointer transition-colors hover:text-[#86C232]"
             >
               Home
             </Link>
@@ -27,7 +27,7 @@ const NavBar = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              className="text-white cursor-pointer transition-colors hover:text-blue-500"
+              className="text-white cursor-pointer transition-colors hover:text-[#86C232]"
             >
               About
             </Link>
@@ -40,7 +40,7 @@ const NavBar = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              className="text-white cursor-pointer transition-colors hover:text-blue-500"
+              className="text-white cursor-pointer transition-colors hover:text-[#86C232]"
             >
               Team
             </Link>
@@ -53,7 +53,7 @@ const NavBar = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              className="text-white cursor-pointer transition-colors hover:text-blue-500"
+              className="text-white cursor-pointer transition-colors hover:text-[#86C232]"
             >
               Contact
             </Link>
