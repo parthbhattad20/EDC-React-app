@@ -1,27 +1,22 @@
 import React from "react";
-import { Fade,Slide } from "react-awesome-reveal";
+import { Fade, Slide } from "react-awesome-reveal";
 
 const Whatwedo = () => {
     return (
         <div>
-            <div
-                name="about"
-                className="w-full h-full text-white sm:my-6"
-            >
+            <div name="about" className="w-full h-full text-[#D1D7E0] sm:my-6">
                 <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                     <div className="pb-8">
                         <Slide triggerOnce={true}>
-                        <p className="text-4xl font-bold inline border-b-4 border-gray-500 mt-10 text-cyan-400 border-b-4 border-yellow-300">
-                            Who we are!
-                        </p>
+                            <p className="text-4xl font-bold inline  mt-10  text-[#802bb1]">
+                                Who we are!
+                            </p>
                         </Slide>
                     </div>
                     <Fade triggerOnce={true}>
-                    <p className="text-xl mt-5 text-justify">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-
-                    </p>
+                        <p className="text-xl mt-5 text-justify">
+                        At E-Cell PVG, we are a vibrant community dedicated to fostering entrepreneurship. We empower individuals to realize their innovative potential, offering workshops, mentorship, and networking opportunities. As a launchpad for startups, we facilitate the journey from ideas to impactful ventures. Our dynamic platform merges creativity with business acumen, equipping aspiring entrepreneurs with vital skills. Join us to connect with like-minded visionaries, access resources, and cultivate real-world insights. Together, we shape the future of entrepreneurship, where innovation thrives, ideas flourish, and success knows no bounds.
+                        </p>
                     </Fade>
 
                     <br />

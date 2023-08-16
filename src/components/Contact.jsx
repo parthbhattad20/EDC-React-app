@@ -7,11 +7,11 @@ const Contact = () => {
         <section className="">
             <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-lg">
                 <Slide triggerOnce={true}>
-                <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-cyan-400 ">
+                <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-[#802bb1] ">
                     Contact Us
                 </h2>
                 
-                <p className="mb-8 lg:mb-16 font-light text-gray-500 dark:text-gray-400 sm:text-xl">
+                <p className="mb-8 lg:mb-16 font-light text-[#D1D7E0] dark:text-gray-400 sm:text-xl">
                     Lets get in touch
                 </p>
                 </Slide>
