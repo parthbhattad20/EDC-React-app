@@ -25,7 +25,7 @@ function App() {
             {loading ? (
                 <img
                     src={video}
-                    className="h-[1000px] w-full"
+                    className="h-[800px] w-full"
                     alt="preloader video"
                 />
             ) : (
