@@ -12,7 +12,7 @@ const Footer = () => {
     <Slide triggerOnce={true}>
     <a
       class="text-white"
-      href="https://tailwind-elements.com/"
+      href="/"
       >EDC-PVG</a>
       </Slide>
   </div>
