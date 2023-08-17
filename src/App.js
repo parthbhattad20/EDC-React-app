@@ -23,7 +23,7 @@ function App() {
     return (
         <div className="App">
             {loading ? (
-                     <div className="h-[1000px] bg-black flex items-center justify-center ">
+                     <div className="h-[700px] bg-black flex items-center justify-center ">
                 <img
                     src={video}
                     className=""
