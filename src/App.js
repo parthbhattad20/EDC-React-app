@@ -5,10 +5,10 @@ import Navbar from "./components/Navbar";
 import SocialLinks from "./components/SocialLinks";
 import Teams from "./components/Teams";
 import Footer from "./components/Footer";
-import PacmanLoader from "react-spinners/PacmanLoader";
 
 import Whatwedo from "./components/Whatwedo";
 import { useState, useEffect } from "react";
+import video from "./assests/preloader.gif.gif";
 
 function App() {
     const [loading, setloading] = useState(false);
@@ -17,19 +17,16 @@ function App() {
         setloading(true);
         setTimeout(() => {
             setloading(false);
-        }, 3000);
+        }, 2000);
     }, []);
 
     return (
         <div className="App">
             {loading ? (
-                <PacmanLoader
-                    className="justify-center"
-                    color="#36d7b7"
-                    loading={loading}
-                    size={70}
-                    aria-label="Loading Spinner"
-                    data-testid="loader"
+                <img
+                    src={video}
+                    className="h-[1000px] w-full"
+                    alt="preloader video"
                 />
             ) : (
                 <div>
