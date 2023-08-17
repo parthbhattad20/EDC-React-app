@@ -23,11 +23,13 @@ function App() {
     return (
         <div className="App">
             {loading ? (
+                     <div className="h-[1000px] bg-black flex items-center justify-center ">
                 <img
                     src={video}
-                    className="h-[700px] w-full"
+                    className=""
                     alt="preloader video"
                 />
+                </div>
             ) : (
                 <div>
                     <div className="header">
