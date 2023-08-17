@@ -8,7 +8,7 @@ const Whatwedo = () => {
                 <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                     <div className="pb-8">
                         <Slide triggerOnce={true}>
-                            <p className="text-4xl font-bold inline  mt-10  text-white">
+                            <p className="text-4xl font-bold inline  mt-10  text-[#66F6F1]">
                                 Who we are
                             </p>
                         </Slide>

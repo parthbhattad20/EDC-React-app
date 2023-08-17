@@ -14,7 +14,7 @@ const NavBar = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              className="text-white cursor-pointer transition-colors hover:text-[#86C232]"
+              className="text-white cursor-pointer transition-colors hover:text-[#66F6F1]"
             >
               Home
             </Link>
@@ -27,7 +27,7 @@ const NavBar = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              className="text-white cursor-pointer transition-colors hover:text-[#86C232]"
+              className="text-white cursor-pointer transition-colors hover:text-[#66F6F1]"
             >
               About
             </Link>
@@ -40,7 +40,7 @@ const NavBar = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              className="text-white cursor-pointer transition-colors hover:text-[#86C232]"
+              className="text-white cursor-pointer transition-colors hover:text-[#66F6F1]"
             >
               Team
             </Link>
@@ -53,7 +53,7 @@ const NavBar = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              className="text-white cursor-pointer transition-colors hover:text-[#86C232]"
+              className="text-white cursor-pointer transition-colors hover:text-[#66F6F1]"
             >
               Contact
             </Link>
