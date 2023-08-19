@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import Whatwedo from "./components/Whatwedo";
 import { useState, useEffect } from "react";
 import video from "./assests/preloader.gif.gif";
+import AchievementsPage from "./components/AchivementsPage";
 
 function App() {
     const [loading, setloading] = useState(false);
@@ -47,6 +48,9 @@ function App() {
                     <div>
                         <Teams />
                     </div>
+                    #<div>
+                        <AchievementsPage/>
+                        </div>
                     <div>
                         <Contact />
                     </div>
