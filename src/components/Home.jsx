@@ -1,13 +1,20 @@
 import React from "react";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import { Fade, Slide } from "react-awesome-reveal";
+// import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+// import { Fade, Slide } from "react-awesome-reveal";
+import bgimg from "../assests/bgimg.jpg"
 
 const Home = () => {
     return (
-        <div name="home" className="h-screen w-full">
+        <div
+            name="home"
+            className=" sm:h-[500px] h-screen w-full bg-cover bg-center relative "
+            style={{
+                backgroundImage:`url(${bgimg})`,
+            }}
+        >
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
                 <div className="flex flex-col justify-center h-full mt-10 w-full">
-                    <Fade triggerOnce={true}>
+                    {/* <Fade triggerOnce={true}>
                         <h2 className="text-4xl sm:text-7xl font-bold text-[#66F6F1]  mt-20 ">
                             Welcome to E-cell PVG
                         </h2>
@@ -23,10 +30,10 @@ const Home = () => {
                             entrepreneurial landscape. Let's collaborate to
                             redefine the future of success.
                         </p>
-                    </Fade>
+                    </Fade> */}
 
                     <div>
-                        <Slide triggerOnce={true}>
+                        {/* <Slide triggerOnce={true}>
                             <a
                                 href="https://ecell-events.netlify.app/"
                                 smooth
@@ -41,17 +48,9 @@ const Home = () => {
                                     />
                                 </span>
                             </a>
-                        </Slide>
+                        </Slide> */}
                     </div>
                 </div>
-
-                {/* <div>
-          <img
-            src={HeroImage}
-            alt="my profile"
-            className=" mx-20 mt-20rounded-2xl w-2/3 md:w-full"
-          />
-        </div> */}
             </div>
         </div>
     );
