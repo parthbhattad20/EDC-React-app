@@ -327,7 +327,7 @@ const Teams = () => {
             <div>
               <Fade triggerOnce={true}>
               <h4 className="text-2xl text-white">Shreya S. Patil</h4>
-              <span className="block text-sm text-gray-500">Documentaion Co-Head</span>
+              <span className="block text-sm text-gray-500">Documentation Co-Head</span>
               </Fade>
             </div>
 

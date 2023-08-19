@@ -102,3 +102,22 @@ redefine the future of success.
     </span>
 </a>
 </Slide>
+
+
+
+
+import Swaroop from "../assests/swaroop.jpg";
+import sharvari from "../assests/sk.jpeg"
+import shreekar from "../assests/shrik.jpeg"
+import anushray from "../assests/ap.jpeg"
+import ruchita from "../assests/ruchita.jpeg"
+import mitesh from "../assests/mk.jpeg"
+import prathamesh from "../assests/pb.jpeg"
+import parth from "../assests/parb.jpeg"
+import prithvi from "../assests/prithp.jpeg"
+import pritam from "../assests/pp.jpeg"
+import jayesh from "../assests/jd.jpeg"
+import rajasee from "../assests/rt.jpeg"
+import gauri from "../assests/gj.jpeg"
+import shreya1 from "../assests/sps.jpeg"
+import shreya2 from "../assests/spp.jpeg"
