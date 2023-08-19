@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 
 const NavBar = () => {
   return (
-    <nav className="bg-black p-3 fixed w-full top-0 z-10">
+    <nav className="bg-inherit p-3 absolute  w-full top-0 z-10">
       <div className="container mx-auto flex justify-center">
         <ul className="flex space-x-4">
           <li className="nav-item">
