@@ -16,7 +16,7 @@ const Home = () => {
                 <div className="flex flex-col mt-20 justify-start h-[200px]  justify-end w-full align-baseline">
                     <Fade triggerOnce={true}>
                         <h2 className="text-4xl sm:text-7xl font-bold text-[#66F6F1] ">
-                            Welcome to E-cell PVG
+                            Welcome to E-Cell
                         </h2>
 
                         {/* <p className="text-[#C5C6C7] text-justify py-4 max-w-screen-lg w-full lg:text-2xl  ">
