@@ -3,6 +3,7 @@ import { Fade } from "react-awesome-reveal";
 import bgimg from "../assests/bgimg4.jpg";
 import NavBar from "./Navbar";
 
+
 const Home = () => {
     return (
 
@@ -23,7 +24,7 @@ const Home = () => {
             >
                 <div className="items-center flex flex-col mt-20 justify-center h-[600px] w-full">
                     <Fade triggerOnce={true}>
-                        <h2 className="text-4xl sm:text-7xl font-bold text-[#66F6F1] mb-6 ">
+                        <h2 className="text-4xl sm:text-7xl font-bold text-white mb-6 ">
                             Innovative Catalysts
                         </h2>
                     </Fade>
