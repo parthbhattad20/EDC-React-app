@@ -48,6 +48,19 @@ const NavBar = () => {
           <li className="nav-item">
             <Link
               activeClass="active"
+              to="achievements"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className="text-white cursor-pointer transition-colors hover:text-[#66F6F1]"
+            >
+              Achievements
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              activeClass="active"
               to="contact"
               spy={true}
               smooth={true}
