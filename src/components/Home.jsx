@@ -12,7 +12,7 @@ const Home = () => {
                 backgroundImage:`url(${bgimg})`,
             }}
         >
-            <div className="max-w-screen-lg mx-auto flex flex-col items-bottom justify-center h-full px-4 md:flex-row">
+            <div className="max-w-screen-lg mx-auto flex flex-col h-full px-4 md:flex-row">
                 <div className="flex flex-col justify-end h-full  w-full align-baseline">
                     <Fade triggerOnce={true}>
                         <h2 className="text-4xl sm:text-7xl font-bold text-[#66F6F1] ">
@@ -33,12 +33,13 @@ const Home = () => {
                     </Fade>
 
                     <div>
+                        <div className="">
                         <Slide triggerOnce={true}>
                             <a
                                 href="https://ecell-events.netlify.app/"
                                 smooth
                                 duration={500}
-                                className="group text-[#C5C6C7] w-fit px-6 py-3 my-2 flex items-center rounded-md border-2 border-[#66F6F1] cursor-pointer"
+                                className="group text-[#C5C6C7] w-fit px-6 py-3 my-2 flex items-center rounded-md  bg-[#66F6F1] cursor-pointer"
                             >
                                 Events
                                 <span className="group-hover:rotate-90 duration-300">
@@ -49,6 +50,7 @@ const Home = () => {
                                 </span>
                             </a>
                         </Slide>
+                        </div>
                     </div>
                 </div>
             </div>
