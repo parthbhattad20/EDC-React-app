@@ -1,6 +1,6 @@
 import React from "react";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import { Fade, Slide } from "react-awesome-reveal";
+
+import { Fade } from "react-awesome-reveal";
 import bgimg from "../assests/bgimg3.jpg"
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
             }}
         >
             <div className="max-w-screen-lg mx-auto flex flex-col h-full px-4 md:flex-row">
-                <div className="flex flex-col justify-end h-full  w-full align-baseline">
+                <div className="flex flex-col mt-20 justify-start h-[200px]  justify-end w-full align-baseline">
                     <Fade triggerOnce={true}>
                         <h2 className="text-4xl sm:text-7xl font-bold text-[#66F6F1] ">
                             Welcome to E-cell PVG
@@ -33,24 +33,7 @@ const Home = () => {
                     </Fade>
 
                     <div>
-                        <div className="">
-                        <Slide triggerOnce={true}>
-                            <a
-                                href="https://ecell-events.netlify.app/"
-                                smooth
-                                duration={500}
-                                className="group text-[#C5C6C7] w-fit px-6 py-3 my-2 flex items-center rounded-md  bg-[#66F6F1] cursor-pointer"
-                            >
-                                Events
-                                <span className="group-hover:rotate-90 duration-300">
-                                    <MdOutlineKeyboardArrowRight
-                                        size={25}
-                                        className="ml-1"
-                                    />
-                                </span>
-                            </a>
-                        </Slide>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
