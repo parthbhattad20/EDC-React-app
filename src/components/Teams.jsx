@@ -1,13 +1,20 @@
 import React from "react";
 import Swaroop from "../assests/swaroop.jpg";
-// import Shreekar from "../assests/EDC SHREEKAR.jpg";
-// import ruchita from "../assests/ruchita.jpeg";
-// import anushray from "../assests/anushray.png";
-// import prithvi from "../assests/prithvi .png";
-// import prathamesh from "../assests/prathamesh.jpg";
-// import mitesh from "../assests/mitesh.jpg";
-// import Gauri from "../assests/gauri.jpeg";
-// import pritam from "../assests/pritam.jpg";
+import sharvari from "../assests/sk.jpeg"
+import shreekar from "../assests/shrik.jpeg"
+import anushray from "../assests/ap.jpeg"
+import ruchita from "../assests/ruchita.jpeg"
+import mitesh from "../assests/mk.jpeg"
+import prathamesh from "../assests/pb.jpeg"
+import parth from "../assests/parb.jpeg"
+import prithvi from "../assests/prithp.jpeg"
+import pritam from "../assests/pp.jpeg"
+import jayesh from "../assests/jd.jpeg"
+import rajasee from "../assests/rt.jpeg"
+import gauri from "../assests/gj.jpeg"
+import shreya1 from "../assests/sps.jpeg"
+import shreya2 from "../assests/spp.jpeg"
+
 import { Fade,Slide } from "react-awesome-reveal";
 
 const Teams = () => {
@@ -48,7 +55,7 @@ const Teams = () => {
           <Slide triggerOnce={true} >
             <img
               className="w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-64 lg:w-64 lg:h-64"
-              src={Swaroop}
+              src={sharvari}
               alt="man"
               loading="lazy"
               width="1000"
@@ -57,8 +64,8 @@ const Teams = () => {
             </Slide>
             <div>
             <Fade triggerOnce={true}>
-              <h4 className="text-2xl text-white">Swaroop Bharaskar</h4>
-              <span className="block text-sm text-gray-500">General Secretary</span>
+              <h4 className="text-2xl text-white">Sharvari Karhe </h4>
+              <span className="block text-sm text-gray-500">Jt.General Secretary</span>
               </Fade>
             </div>
           </div>
@@ -66,7 +73,7 @@ const Teams = () => {
           <Slide triggerOnce={true} direction="right">
             <img
               className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-              src={Swaroop}
+              src={shreekar}
               alt="woman"
               loading="lazy"
               width="1000"
@@ -75,8 +82,8 @@ const Teams = () => {
             </Slide>
             <div>
               <Fade triggerOnce={true}>
-              <h4 className="text-2xl text-white">Swaroop Bharaskar</h4>
-              <span className="block text-sm text-gray-500">General Secretary</span>
+              <h4 className="text-2xl text-white">Shreekar Kulkarni</h4>
+              <span className="block text-sm text-gray-500">Treasurer</span>
               </Fade>
             </div>
 
@@ -91,7 +98,7 @@ const Teams = () => {
           <Slide triggerOnce={true} >
             <img
               className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-              src={Swaroop}
+              src={anushray}
               alt="woman"
               loading="lazy"
               width="640"
@@ -100,8 +107,8 @@ const Teams = () => {
             </Slide>
             <div>
             <Fade triggerOnce={true}>
-              <h4 className="text-2xl text-white ">Swaroop Bharaskar</h4>
-              <span className="block text-sm text-gray-500">General Secretary</span>
+              <h4 className="text-2xl text-white ">Anushray Pingale</h4>
+              <span className="block text-sm text-gray-500">Head of Sponsorship</span>
               </Fade>
             </div>
           </div>
@@ -109,7 +116,7 @@ const Teams = () => {
           <Slide triggerOnce={true} direction="right" >
             <img
               className="w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-64 lg:w-64 lg:h-64"
-              src={Swaroop}
+              src={ruchita}
               alt="man"
               loading="lazy"
               width="1000"
@@ -118,8 +125,8 @@ const Teams = () => {
             </Slide>
             <div>
             <Fade triggerOnce={true}>
-              <h4 className="text-2xl text-white">Swaroop Bharaskar</h4>
-              <span className="block text-sm text-gray-500">General Secretary</span>
+              <h4 className="text-2xl text-white">Ruchita Kagne</h4>
+              <span className="block text-sm text-gray-500">Thrust Secretary</span>
               </Fade>
             </div>
           </div>
@@ -127,7 +134,7 @@ const Teams = () => {
           <Slide triggerOnce={true} >
             <img
               className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-              src={Swaroop}
+              src={mitesh}
               alt="woman"
               loading="lazy"
               width="1000"
@@ -136,8 +143,8 @@ const Teams = () => {
             </Slide>
             <div>
               <Fade triggerOnce={true}>
-              <h4 className="text-2xl text-white">Swaroop Bharaskar</h4>
-              <span className="block text-sm text-gray-500">General Secretary</span>
+              <h4 className="text-2xl text-white">Mitesh Kulkarni</h4>
+              <span className="block text-sm text-gray-500">Media Head</span>
               </Fade>
             </div>
 
@@ -152,7 +159,7 @@ const Teams = () => {
           <Slide triggerOnce={true} direction="right">
             <img
               className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-              src={Swaroop}
+              src={prathamesh}
               alt="woman"
               loading="lazy"
               width="640"
@@ -161,8 +168,8 @@ const Teams = () => {
             </Slide>
             <div>
             <Fade triggerOnce={true}>
-              <h4 className="text-2xl text-white">Swaroop Bharaskar</h4>
-              <span className="block text-sm text-gray-500">General Secretary</span>
+              <h4 className="text-2xl text-white">Prathamesh Bhagwat</h4>
+              <span className="block text-sm text-gray-500">Design Head</span>
               </Fade>
             </div>
           </div>
@@ -170,7 +177,7 @@ const Teams = () => {
           <Slide triggerOnce={true} direction="right">
             <img
               className="w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-64 lg:w-64 lg:h-64"
-              src={Swaroop}
+              src={parth}
               alt="man"
               loading="lazy"
               width="1000"
@@ -179,8 +186,8 @@ const Teams = () => {
             </Slide>
             <div>
             <Fade triggerOnce={true}>
-              <h4 className="text-2xl text-white">Swaroop Bharaskar</h4>
-              <span className="block text-sm text-gray-500">General Secretary</span>
+              <h4 className="text-2xl text-white">Parth Bhattad</h4>
+              <span className="block text-sm text-gray-500">Tech Head</span>
               </Fade>
             </div>
           </div>
@@ -188,7 +195,7 @@ const Teams = () => {
           <Slide triggerOnce={true} >
             <img
               className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-              src={Swaroop}
+              src={prithvi}
               alt="woman"
               loading="lazy"
               width="1000"
@@ -197,8 +204,8 @@ const Teams = () => {
             </Slide>
             <div>
               <Fade triggerOnce={true}>
-              <h4 className="text-2xl text-white">Swaroop Bharaskar</h4>
-              <span className="block text-sm text-gray-500">General Secretary</span>
+              <h4 className="text-2xl text-white">Prithviraj Patil</h4>
+              <span className="block text-sm text-gray-500">NEC Head</span>
               </Fade>
             </div>
 
@@ -213,7 +220,7 @@ const Teams = () => {
           <Slide triggerOnce={true} direction="right">
             <img
               className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-              src={Swaroop}
+              src={pritam}
               alt="woman"
               loading="lazy"
               width="640"
@@ -222,8 +229,8 @@ const Teams = () => {
             </Slide>
             <div>
             <Fade triggerOnce={true}>
-              <h4 className="text-2xl text-white">Swaroop Bharaskar</h4>
-              <span className="block text-sm text-gray-500">General Secretary</span>
+              <h4 className="text-2xl text-white">Pritam Patil</h4>
+              <span className="block text-sm text-gray-500">PR Head</span>
               </Fade>
             </div>
           </div>
@@ -231,7 +238,7 @@ const Teams = () => {
           <Slide triggerOnce={true} >
             <img
               className="w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-64 lg:w-64 lg:h-64"
-              src={Swaroop}
+              src={jayesh}
               alt="man"
               loading="lazy"
               width="1000"
@@ -240,8 +247,8 @@ const Teams = () => {
             </Slide>
             <div>
             <Fade triggerOnce={true}>
-              <h4 className="text-2xl text-white">Swaroop Bharaskar</h4>
-              <span className="block text-sm text-gray-500">General Secretary</span>
+              <h4 className="text-2xl text-white">Jayesh Suryawanshi</h4>
+              <span className="block text-sm text-gray-500">Startup Executive</span>
               </Fade>
             </div>
           </div>
@@ -249,7 +256,7 @@ const Teams = () => {
           <Slide triggerOnce={true} direction="right">
             <img
               className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-              src={Swaroop}
+              src={rajasee}
               alt="woman"
               loading="lazy"
               width="1000"
@@ -258,8 +265,8 @@ const Teams = () => {
             </Slide>
             <div>
               <Fade triggerOnce={true}>
-              <h4 className="text-2xl text-white">Swaroop Bharaskar</h4>
-              <span className="block text-sm text-gray-500">General Secretary</span>
+              <h4 className="text-2xl text-white">Rajasee Thakre</h4>
+              <span className="block text-sm text-gray-500">Content Developement Head</span>
               </Fade>
             </div>
 
@@ -274,7 +281,7 @@ const Teams = () => {
           <Slide triggerOnce={true}>
             <img
               className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-              src={Swaroop}
+              src={gauri}
               alt="woman"
               loading="lazy"
               width="640"
@@ -283,8 +290,8 @@ const Teams = () => {
             </Slide>
             <div>
             <Fade triggerOnce={true}>
-              <h4 className="text-2xl text-white">Swaroop Bharaskar</h4>
-              <span className="block text-sm text-gray-500">General Secretary</span>
+              <h4 className="text-2xl text-white">Gauri Jadhav</h4>
+              <span className="block text-sm text-gray-500">Aesthetics Head</span>
               </Fade>
             </div>
           </div>
@@ -292,7 +299,7 @@ const Teams = () => {
           <Slide triggerOnce={true} direction="right" >
             <img
               className="w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-64 lg:w-64 lg:h-64"
-              src={Swaroop}
+              src={shreya1}
               alt="man"
               loading="lazy"
               width="1000"
@@ -301,8 +308,8 @@ const Teams = () => {
             </Slide>
             <div>
             <Fade triggerOnce={true}>
-              <h4 className="text-2xl text-white">Swaroop Bharaskar</h4>
-              <span className="block text-sm text-gray-500">General Secretary</span>
+              <h4 className="text-2xl text-white">Shreya V. Patil</h4>
+              <span className="block text-sm text-gray-500">Documentation Head</span>
               </Fade>
             </div>
           </div>
@@ -310,7 +317,7 @@ const Teams = () => {
           <Slide triggerOnce={true} >
             <img
               className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-              src={Swaroop}
+              src={shreya2}
               alt="woman"
               loading="lazy"
               width="1000"
@@ -319,8 +326,8 @@ const Teams = () => {
             </Slide>
             <div>
               <Fade triggerOnce={true}>
-              <h4 className="text-2xl text-white">Swaroop Bharaskar</h4>
-              <span className="block text-sm text-gray-500">General Secretary</span>
+              <h4 className="text-2xl text-white">Shreya S. Patil</h4>
+              <span className="block text-sm text-gray-500">Documentaion Co-Head</span>
               </Fade>
             </div>
 
