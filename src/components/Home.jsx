@@ -26,7 +26,7 @@ const Home = () => {
                     </Fade>
                     <a
                         href="https://master--ecell-events.netlify.app/" // Replace with the actual link to your events section
-                        className="text-white bg-[#66F6F1] py-2 px-4 rounded-md font-semibold transition hover:bg-[#4ECEE6] duration-300"
+                        className="text-white border-2 border-[#66F6F1] py-2 px-4 rounded-md font-semibold transition hover:bg-[#4ECEE6] duration-300"
                     >
                         Explore Events
                     </a>
