@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import 
 AchievementsPage from "./components/AchivementsPage"
 
-import Whatwedo from "./components/Whatwedo";
+
 import { useState, useEffect } from "react";
 import video from "./assests/preloader.gif.gif";
 
