@@ -18,7 +18,7 @@ const Home = () => {
                     backgroundColor: "rgba(0, 0, 0, 0.5)", // Semi-transparent background
                 }}
             >
-                <div className="items-center flex flex-col mt-20 justify-center h-[700px] w-full">
+                <div className="items-center flex flex-col mt-20 justify-center h-[600px] w-full">
                     <Fade triggerOnce={true}>
                         <h2 className="text-4xl sm:text-7xl font-bold text-[#66F6F1] mb-6 ">
                             Innovative Catalysts
