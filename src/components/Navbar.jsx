@@ -2,8 +2,10 @@ import React from 'react';
 import { Link } from 'react-scroll';
 
 const NavBar = () => {
+
+
   return (
-    <nav className="bg-inherit p-3 absolute  w-full top-0 z-10">
+    <nav className={"p-3 absolute bg-tansparent w-full top-0 z-10"}>
       <div className="container mx-auto flex justify-center">
         <ul className="flex space-x-4">
           <li className="nav-item">

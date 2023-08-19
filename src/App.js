@@ -5,11 +5,12 @@ import Navbar from "./components/Navbar";
 import SocialLinks from "./components/SocialLinks";
 import Teams from "./components/Teams";
 import Footer from "./components/Footer";
+import 
+AchievementsPage from "./components/AchivementsPage"
 
 import Whatwedo from "./components/Whatwedo";
 import { useState, useEffect } from "react";
 import video from "./assests/preloader.gif.gif";
-import AchievementsPage from "./components/AchivementsPage";
 
 function App() {
     const [loading, setloading] = useState(false);
@@ -42,9 +43,7 @@ function App() {
                     <div>
                         <About />
                     </div>
-                    <div>
-                        <Whatwedo />
-                    </div>
+                 
                     <div>
                         <Teams />
                     </div>

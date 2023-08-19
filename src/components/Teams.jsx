@@ -19,12 +19,12 @@ import { Fade,Slide } from "react-awesome-reveal";
 
 const Teams = () => {
     return (
-        <div name="team">
-            <div className="py-20">
-      <div className="container mx-auto px-6 md:px-12 xl:px-32 ">
-        <div className="mb-16">
+        <div name="team ">
+            <div className="py-10">
+      <div className="container mx-auto px-6   ">
+        <div className="mb-16 text-center">
           <Slide triggerOnce={true}>
-          <h2 className="max-w-screen-lg text-4xl mb-4 text-2xl text-[#66F6F1] font-bold md:text-4xl ">
+          <h2 className=" text-4xl mb-4 text-2xl text-[#66F6F1] font-bold md:text-4xl ">
            Meet the team
           </h2>
           </Slide>

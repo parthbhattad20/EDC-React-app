@@ -1,12 +1,14 @@
 import React from "react";
 
 import { Fade, Slide } from "react-awesome-reveal";
+import NavBar from "./Navbar";
 
 const About = () => {
     return (
-        <div name="about" className="w-full h-full  text-[#D1D7E0] sm:my-6">
+        <div name="about" className="w-full h-full  text-[#D1D7E0] sm:my-3">
+            <NavBar isHomePage={false}/>
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-                <div className="pb-8">
+                <div className="pb-8 text-center">
                     <Slide triggerOnce={true}>
                         <p className="text-4xl font-bold inline  border-yellow-300 mt-10 text-[#66F6F1]">
                             About

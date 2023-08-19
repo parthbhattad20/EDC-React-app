@@ -5,13 +5,13 @@ const Contact = () => {
     return (
       <div name="contact">
         <section className="">
-            <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-lg">
+            <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-lg ">
                 <Slide triggerOnce={true}>
-                <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-[#66F6F1] ">
+                <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-[#66F6F1] text-center ">
                     Contact Us
                 </h2>
                 
-                <p className="mb-8 lg:mb-16 font-light text-[#D1D7E0] dark:text-gray-400 sm:text-xl">
+                <p className="mb-8 lg:mb-16 font-light text-[#D1D7E0] dark:text-gray-400 sm:text-xl text-center">
                     Lets get in touch
                 </p>
                 </Slide>
