@@ -1,7 +1,7 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
 import bgimg from "../assests/bgimg4.jpg";
-import NavBar from "./Navbar";
+
 
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
                 backgroundImage: `url(${bgimg})`,
             }}
         >
-            <NavBar isHomePage={true}/>
+        
             <div
                 className="max-w-screen mx-auto flex flex-col h-full px-4 md:flex-row"
                 style={{
