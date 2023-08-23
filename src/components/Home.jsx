@@ -1,8 +1,15 @@
 import React from "react";
 import { Slide } from "react-awesome-reveal";
 import bgimg from "../assests/bgimg4.jpg";
+import { useEffect } from "react";
 
 const Home = () => {
+
+
+  
+
+
+
     return (
         <div
             name="home"
