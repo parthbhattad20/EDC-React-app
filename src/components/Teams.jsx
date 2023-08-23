@@ -24,7 +24,7 @@ const Teams = () => {
                 <div className="container mx-auto px-6   ">
                     <div className="mb-16 text-center">
                         <Slide triggerOnce={true}>
-                            <h2 className=" text-4xl mb-4 text-2xl text-[#66F6F1] font-bold md:text-4xl ">
+                            <h2 className=" text-4xl mb-4 text-2xl text-[#1E3A8A] font-bold md:text-4xl ">
                                 Meet the team
                             </h2>
                         </Slide>

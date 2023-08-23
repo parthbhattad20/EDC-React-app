@@ -5,12 +5,12 @@ import { Fade, Slide } from "react-awesome-reveal";
 
 const About = () => {
     return (
-        <div name="about" className="w-full h-full  text-[#D1D7E0] sm:my-3">
+        <div name="about" className="w-full h-full  text-[#D3D4D7] sm:my-3">
          
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                 <div className="pb-3 text-center">
                     <Slide triggerOnce={true}>
-                        <p className="text-4xl font-bold inline  border-yellow-300 mt-20 text-[#66F6F1]">
+                        <p className="text-4xl font-bold inline  border-yellow-300 mt-20 text-[#1E3A8A]">
                             About
                         </p>
                     </Slide>
