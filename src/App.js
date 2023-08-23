@@ -25,7 +25,7 @@ function App() {
     return (
         <div className="App">
             {loading ? (
-                     <div className="h-[700px] bg-black flex items-center justify-center lg:h-[900px]">
+                     <div className="h-screen bg-black flex items-center justify-center lg:h-[900px]">
                 <img
                     src={video}
                     className=""
@@ -34,7 +34,7 @@ function App() {
                 </div>
             ) : (
                 <div>
-                    <div className="header">
+                    <div>
                         <Navbar />
                     </div>
                     <div>
