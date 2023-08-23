@@ -47,7 +47,7 @@ const Home = () => {
                     >
                         Explore Events
                     </a>
-                    <div className=" bg-white fixed bottom-4 right-4 opacity-50 hover:opacity-100 transition duration-300">
+                    <div className=" bg-white fixed bottom-10 right-4 opacity-50 hover:opacity-100 transition duration-300">
         <img src='https://stageworksmn.com/wp-content/uploads/2017/01/SCROLL-DOWN-button-kopie1.gif' alt="Scroll Down" className="w-full h-[50px]" />
       </div>
                 </div>
