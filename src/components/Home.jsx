@@ -4,6 +4,7 @@ import bgimg from "../assests/bgimg4.jpg";
 
 
 
+
 const Home = () => {
     return (
 
@@ -31,16 +32,14 @@ const Home = () => {
                     </Slide>
                     </div>
                     <div>
-                    <Slide triggerOnce={true} direction="right">
-                        <h2 className=" text-3xl sm:text-7xl font-bold text-white mb-6 uppercase font-mono border-b ">
-                        Innovate.
+                    <Slide triggerOnce={true} >
+                        <h2 className=" mx-auto text-3xl sm:text-7xl font-bold text-white mb-6 uppercase font-mono border-b">
+                        Aspire.Innovate.
                         </h2>
                     </Slide>
                     </div>
                     <Slide triggerOnce={true} >
-                        <h2 className=" mx-auto text-3xl sm:text-7xl font-bold text-white mb-6 uppercase font-mono border-b">
-                        Aspire.
-                        </h2>
+                      <h1 className="mx-auto text-4xl sm:text-7xl font-bold  mb-6 uppercase font-serifborder-b">E-CELL PVG</h1>
                     </Slide>
                     <a
                         href="https://master--ecell-events.netlify.app/" 
@@ -48,6 +47,9 @@ const Home = () => {
                     >
                         Explore Events
                     </a>
+                    <div className=" bg-white fixed bottom-4 right-4 opacity-50 hover:opacity-100 transition duration-300">
+        <img src='https://stageworksmn.com/wp-content/uploads/2017/01/SCROLL-DOWN-button-kopie1.gif' alt="Scroll Down" className="w-full h-[50px]" />
+      </div>
                 </div>
             </div>
         </div>
