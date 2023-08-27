@@ -14,363 +14,587 @@ import rajasee from "../assests/rt2.jpeg";
 import gauri from "../assests/gj.jpeg";
 import shreya1 from "../assests/sps.jpeg";
 import shreya2 from "../assests/spp.jpeg";
+import { FaLinkedin ,FaMailBulk} from "react-icons/fa";
 
-import { Fade, Slide } from "react-awesome-reveal";
+
+import { Fade } from "react-awesome-reveal";
 
 const Teams = () => {
     return (
-        <div name="team">
-            <div className="py-10">
-                <div className="container mx-auto px-6   ">
-                    <div className="mb-16 text-center">
-                        <Slide triggerOnce={true}>
-                            <h2 className=" text-4xl mb-4 text-2xl text-[#1E3A8A] font-bold md:text-4xl ">
-                                Meet the team
-                            </h2>
-                        </Slide>
-                        <p className="text-gray-600 lg:w-8/12 lg:mx-auto"></p>
-                    </div>
-                    <div className="grid gap-12 items-center md:grid-cols-3">
-                        <div className="space-y-4 text-center mb-4">
-                            <Slide triggerOnce={true} direction="right">
-                                <img
-                                    className="w-64 h-64 mx-auto object-cover hover:scale-110 transition duration-300 ease-in-out rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-                                    src={Swaroop}
-                                    alt="woman"
-                                    loading="lazy"
-                                    width="640"
-                                    height="805"
-                                />
-                            </Slide>
-                            <div>
-                                <Fade triggerOnce={true}>
-                                    <h4 className="text-2xl text-white">
-                                        Swaroop Bharaskar
-                                    </h4>
-                                    <span className="block text-sm text-gray-500">
-                                        General Secretary
-                                    </span>
-                                </Fade>
-                            </div>
-                        </div>
-                        <div className="space-y-4 text-center mb-3">
-                            <Slide triggerOnce={true}>
-                                <img
-                                    className="w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-64 lg:w-64 lg:h-64"
-                                    src={sharvari}
-                                    alt="man"
-                                    loading="lazy"
-                                    width="1000"
-                                    height="667"
-                                />
-                            </Slide>
-                            <div>
-                                <Fade triggerOnce={true}>
-                                    <h4 className="text-2xl text-white">
-                                        Sharvari Karhe{" "}
-                                    </h4>
-                                    <span className="block text-sm text-gray-500">
-                                        Jt.General Secretary
-                                    </span>
-                                </Fade>
-                            </div>
-                        </div>
-                        <div className="space-y-4 text-center mb-3">
-                            <Slide triggerOnce={true} direction="right">
-                                <img
-                                    className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-                                    src={shreekar}
-                                    alt="woman"
-                                    loading="lazy"
-                                    width="1000"
-                                    height="667"
-                                />
-                            </Slide>
-                            <div>
-                                <Fade triggerOnce={true}>
-                                    <h4 className="text-2xl text-white">
-                                        Shreekar Kulkarni
-                                    </h4>
-                                    <span className="block text-sm text-gray-500">
-                                        Treasurer
-                                    </span>
-                                </Fade>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="grid gap-12 items-center md:grid-cols-3">
-                        <div className="space-y-4 text-center mb-3">
-                            <Slide triggerOnce={true}>
-                                <img
-                                    className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-                                    src={anushray}
-                                    alt="woman"
-                                    loading="lazy"
-                                    width="640"
-                                    height="805"
-                                />
-                            </Slide>
-                            <div>
-                                <Fade triggerOnce={true}>
-                                    <h4 className="text-2xl text-white ">
-                                        Anushray Pingale
-                                    </h4>
-                                    <span className="block text-sm text-gray-500">
-                                        Head of Sponsorship
-                                    </span>
-                                </Fade>
-                            </div>
-                        </div>
-                        <div className="space-y-4 text-center mb-3">
-                            <Slide triggerOnce={true} direction="right">
-                                <img
-                                    className="w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-64 lg:w-64 lg:h-64"
-                                    src={ruchita}
-                                    alt="man"
-                                    loading="lazy"
-                                    width="1000"
-                                    height="667"
-                                />
-                            </Slide>
-                            <div>
-                                <Fade triggerOnce={true}>
-                                    <h4 className="text-2xl text-white">
-                                        Ruchita Kagne
-                                    </h4>
-                                    <span className="block text-sm text-gray-500">
-                                        Thrust Secretary
-                                    </span>
-                                </Fade>
-                            </div>
-                        </div>
-                        <div className="space-y-4 text-center mb-3">
-                            <Slide triggerOnce={true}>
-                                <img
-                                    className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-                                    src={parth}
-                                    alt="woman"
-                                    loading="lazy"
-                                    width="1000"
-                                    height="667"
-                                />
-                            </Slide>
-                            <div>
-                                <Fade triggerOnce={true}>
-                                    <h4 className="text-2xl text-white">
-                                        Parth Bhattad
-                                    </h4>
-                                    <span className="block text-sm text-gray-500">
-                                        Tech Head
-                                    </span>
-                                </Fade>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="grid gap-12 items-center md:grid-cols-3">
-                        <div className="space-y-4 text-center mb-3">
-                            <Slide triggerOnce={true} direction="right">
-                                <img
-                                    className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-                                    src={pritam}
-                                    alt="woman"
-                                    loading="lazy"
-                                    width="640"
-                                    height="805"
-                                />
-                            </Slide>
-                            <div>
-                                <Fade triggerOnce={true}>
-                                    <h4 className="text-2xl text-white">
-                                        Pritam Patil
-                                    </h4>
-                                    <span className="block text-sm text-gray-500">
-                                        PR Head
-                                    </span>
-                                </Fade>
-                            </div>
-                        </div>
-                        <div className="space-y-4 text-center mb-3">
-                            <Slide triggerOnce={true} direction="right">
-                                <img
-                                    className="w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-64 lg:w-64 lg:h-64"
-                                    src={rajasee}
-                                    alt="man"
-                                    loading="lazy"
-                                    width="1000"
-                                    height="667"
-                                />
-                            </Slide>
-                            <div>
-                                <Fade triggerOnce={true}>
-                                    <h4 className="text-2xl text-white">
-                                        Rajasee Thakre
-                                    </h4>
-                                    <span className="block text-sm text-gray-500">
-                                        Content Developement Head
-                                    </span>
-                                </Fade>
-                            </div>
-                        </div>
-                        <div className="space-y-4 text-center mb-3">
-                            <Slide triggerOnce={true}>
-                                <img
-                                    className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-                                    src={prithvi}
-                                    alt="woman"
-                                    loading="lazy"
-                                    width="1000"
-                                    height="667"
-                                />
-                            </Slide>
-                            <div>
-                                <Fade triggerOnce={true}>
-                                    <h4 className="text-2xl text-white">
-                                        Prithviraj Patil
-                                    </h4>
-                                    <span className="block text-sm text-gray-500">
-                                        NEC Head
-                                    </span>
-                                </Fade>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="grid gap-12 items-center md:grid-cols-3">
-                        <div className="space-y-4 text-center mb-3">
-                            <Slide triggerOnce={true} direction="right">
-                                <img
-                                    className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-                                    src={mitesh}
-                                    alt="woman"
-                                    loading="lazy"
-                                    width="640"
-                                    height="805"
-                                />
-                            </Slide>
-                            <div>
-                                <Fade triggerOnce={true}>
-                                    <h4 className="text-2xl text-white">
-                                        Mitesh Kulkarni
-                                    </h4>
-                                    <span className="block text-sm text-gray-500">
-                                        Media Head
-                                    </span>
-                                </Fade>
-                            </div>
-                        </div>
-                        <div className="space-y-4 text-center mb-3">
-                            <Slide triggerOnce={true}>
-                                <img
-                                    className="w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-64 lg:w-64 lg:h-64"
-                                    src={prathamesh}
-                                    alt="man"
-                                    loading="lazy"
-                                    width="1000"
-                                    height="667"
-                                />
-                            </Slide>
-                            <div>
-                                <Fade triggerOnce={true}>
-                                    <h4 className="text-2xl text-white">
-                                        Prathamesh Bhagwat
-                                    </h4>
-                                    <span className="block text-sm text-gray-500">
-                                        Design Head
-                                    </span>
-                                </Fade>
-                            </div>
-                        </div>
-                        <div className="space-y-4 text-center mb-3">
-                            <Slide triggerOnce={true} direction="right">
-                                <img
-                                    className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-                                    src={jayesh}
-                                    alt="woman"
-                                    loading="lazy"
-                                    width="1000"
-                                    height="667"
-                                />
-                            </Slide>
-                            <div>
-                                <Fade triggerOnce={true}>
-                                    <h4 className="text-2xl text-white">
-                                        Jayesh Surywanshi
-                                    </h4>
-                                    <span className="block text-sm text-gray-500">
-                                        Startup Executive{" "}
-                                    </span>
-                                </Fade>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="grid gap-12 items-center md:grid-cols-3">
-                        <div className="space-y-4 text-center mb-3">
-                            <Slide triggerOnce={true}>
-                                <img
-                                    className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-                                    src={gauri}
-                                    alt="woman"
-                                    loading="lazy"
-                                    width="640"
-                                    height="805"
-                                />
-                            </Slide>
-                            <div>
-                                <Fade triggerOnce={true}>
-                                    <h4 className="text-2xl text-white">
-                                        Gauri Jadhav
-                                    </h4>
-                                    <span className="block text-sm text-gray-500">
-                                        Aesthetics Head
-                                    </span>
-                                </Fade>
-                            </div>
-                        </div>
-                        <div className="space-y-4 text-center mb-3">
-                            <Slide triggerOnce={true} direction="right">
-                                <img
-                                    className="w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-64 lg:w-64 lg:h-64"
-                                    src={shreya1}
-                                    alt="man"
-                                    loading="lazy"
-                                    width="1000"
-                                    height="667"
-                                />
-                            </Slide>
-                            <div>
-                                <Fade triggerOnce={true}>
-                                    <h4 className="text-2xl text-white">
-                                        Shreya V. Patil
-                                    </h4>
-                                    <span className="block text-sm text-gray-500">
-                                        Documentation Head
-                                    </span>
-                                </Fade>
-                            </div>
-                        </div>
-                        <div className="space-y-4 text-center">
-                            <Slide triggerOnce={true}>
-                                <img
-                                    className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-                                    src={shreya2}
-                                    alt="woman"
-                                    loading="lazy"
-                                    width="1000"
-                                    height="667"
-                                />
-                            </Slide>
-                            <div>
-                                <Fade triggerOnce={true}>
-                                    <h4 className="text-2xl text-white">
-                                        Shreya S. Patil
-                                    </h4>
-                                    <span className="block text-sm text-gray-500">
-                                        Documentation Co-Head
-                                    </span>
-                                </Fade>
+        <div name="team" className="px-4 py-3 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-3">
+            <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+                <div className="text-center text-white text-4xl">
+                    <Fade>
+                    <p className="inline-block px-3 py-px mb-4  font-semibold tracking-wider text-[#1E3A8A] uppercase rounded-full bg-teal-accent-400">
+                        Meet The Team
+                    </p>
+                    </Fade>
+                </div>
+                <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+                    <span className="relative inline-block">
+                        <svg
+                            viewBox="0 0 52 24"
+                            fill="currentColor"
+                            className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
+                        >
+                            <defs>
+                                <pattern
+                                    id="1d4040f3-9f3e-4ac7-b117-7d4009658ced"
+                                    x="0"
+                                    y="0"
+                                    width=".135"
+                                    height=".30"
+                                >
+                                    <circle cx="1" cy="1" r=".7" />
+                                </pattern>
+                            </defs>
+                            <rect
+                                fill="url(#1d4040f3-9f3e-4ac7-b117-7d4009658ced)"
+                                width="52"
+                                height="24"
+                            />
+                        </svg>
+                        <span className="relative"></span>
+                    </span>{" "}
+                    
+                </h2>
+                <p className="text-base text-gray-700 md:text-lg">
+                   
+                </p>
+            </div>
+            <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+                <div>
+                    <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        
+                        <img
+                            className="object-cover w-full h-80 md:h-64 xl:h-80"
+                            src={Swaroop}
+                            alt="Person"
+                        />
+                        <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+                            <p className="mb-1 text-lg font-bold text-gray-100">
+                            Swaroop Bharaskar
+                            </p>
+                            <p className="mb-4 text-xs text-gray-100">
+                            General Secretary
+                            </p>
+                            {/* <p className="mb-4 text-xs tracking-wide text-gray-400">
+                               
+                            </p> */}
+                            <div className="flex items-center justify-center space-x-3">
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                   <FaLinkedin size={25}/>
+                                </a>
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                  <FaMailBulk size={25}/>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div>
+                    <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <img
+                            className="object-cover w-full h-80 md:h-64 xl:h-80"
+                            src={sharvari}
+                            alt="Person"
+                        />
+                        <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+                            <p className="mb-1 text-lg font-bold text-gray-100">
+                                Sharvari Karhe
+                            </p>
+                            <p className="mb-4 text-xs text-gray-100">
+                               Jt.General Secretary
+                            </p>
+                            {/* <p className="mb-4 text-xs tracking-wide text-gray-400">
+                                Amet I love liquorice jujubes pudding croissant
+                                I love pudding.
+                            </p> */}
+                            <div className="flex items-center justify-center space-x-3">
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                  <FaLinkedin size={25}/>
+                                </a>
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                 <FaMailBulk size={25}/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <img
+                            className="object-cover w-full h-80 md:h-64 xl:h-80"
+                            src={shreekar}
+                            alt="Person"
+                        />
+                        <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+                            <p className="mb-1 text-lg font-bold text-gray-100">
+                                Shreekar Kulkarni
+                            </p>
+                            <p className="mb-4 text-xs text-gray-100">
+                               Treasurer
+                            </p>
+                            <p className="mb-4 text-xs tracking-wide text-gray-400">
+                                
+                            </p>
+                            <div className="flex items-center justify-center space-x-3">
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                 
+                                </a>
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                    <svg
+                                        viewBox="0 0 24 24"
+                                        fill="currentColor"
+                                        className="h-5"
+                                    >
+                                        <path d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <img
+                            className="object-cover w-full h-80  md:h-64 xl:h-80"
+                            src={anushray}
+                            alt="Person"
+                        />
+                        <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+                            <p className="mb-1 text-lg font-bold text-gray-100">
+                            Anushray Pingale
+                            </p>
+                            <p className="mb-4 text-xs text-gray-100">
+                            Head of Sponsorship
+                            </p>
+                            {/* <p className="mb-4 text-xs tracking-wide text-gray-400">
+                                Lorizzle ipsum bling bling sit amizzle,
+                                consectetuer adipiscing elit.
+                            </p> */}
+                              <div className="flex items-center justify-center space-x-3">
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                   <FaLinkedin size={25}/>
+                                </a>
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                  <FaMailBulk size={25}/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <img
+                            className="object-cover w-full h-80 md:h-64 xl:h-80"
+                            src={ruchita}
+                            alt="Person"
+                        />
+                        <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+                            <p className="mb-1 text-lg font-bold text-gray-100">
+                            Ruchita Kagne
+                            </p>
+                            <p className="mb-4 text-xs text-gray-100">
+                            Thrust Secretary
+                            </p>
+                            <p className="mb-4 text-xs tracking-wide text-gray-400">
+                                Lorizzle ipsum bling bling sit amizzle,
+                                consectetuer adipiscing elit.
+                            </p>
+                            <div className="flex items-center justify-center space-x-3">
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                   <FaLinkedin size={25}/>
+                                </a>
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                  <FaMailBulk size={25}/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <img
+                            className="object-cover w-full h-80  md:h-64 xl:h-80"
+                            src={parth}
+                            alt="Person"
+                        />
+                        <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+                            <p className="mb-1 text-lg font-bold text-gray-100">
+                               Parth Bhattad
+                            </p>
+                            <p className="mb-4 text-xs text-gray-100">
+                                Tech Head
+                            </p>
+                            {/* <p className="mb-4 text-xs tracking-wide text-gray-400">
+                             
+                            </p> */}
+                              <div className="flex items-center justify-center space-x-3">
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                   <FaLinkedin size={25}/>
+                                </a>
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                  <FaMailBulk size={25}/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <img
+                            className="object-cover w-full h-80 md:h-64 xl:h-80"
+                            src={pritam}
+                            alt="Person"
+                        />
+                        <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+                            <p className="mb-1 text-lg font-bold text-gray-100">
+                            Pritam Patil
+                            </p>
+                            <p className="mb-4 text-xs text-gray-100">
+                            PR Head
+                            </p>
+                            {/* <p className="mb-4 text-xs tracking-wide text-gray-400">
+                              
+                            </p> */}
+                              <div className="flex items-center justify-center space-x-3">
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                   <FaLinkedin size={25}/>
+                                </a>
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                  <FaMailBulk size={25}/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <img
+                            className="object-cover w-full h-80  md:h-64 xl:h-80"
+                            src={rajasee}
+                            alt="Person"
+                        />
+                        <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+                            <p className="mb-1 text-lg font-bold text-gray-100">
+                            Rajasee Thakre
+                            </p>
+                            <p className="mb-4 text-xs text-gray-100">
+                            Content Developement Head
+                            </p>
+                            {/* <p className="mb-4 text-xs tracking-wide text-gray-400">
+                                Lorizzle ipsum bling bling sit amizzle,
+                                consectetuer adipiscing elit.
+                            </p> */}
+                            <div className="flex items-center justify-center space-x-3">
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                   <FaLinkedin size={25}/>
+                                </a>
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                  <FaMailBulk size={25}/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <img
+                            className="object-cover w-full h-80 md:h-64 xl:h-80"
+                            src={prithvi}
+                            alt="Person"
+                        />
+                        <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+                            <p className="mb-1 text-lg font-bold text-gray-100">
+                            Prithviraj Patil
+                            </p>
+                            <p className="mb-4 text-xs text-gray-100">
+                            NEC Head
+                            </p>
+                            {/* <p className="mb-4 text-xs tracking-wide text-gray-400">
+                                Lorizzle ipsum bling bling sit amizzle,
+                                consectetuer adipiscing elit.
+                            </p> */}
+                            <div className="flex items-center justify-center space-x-3">
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                   <FaLinkedin size={25}/>
+                                </a>
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                  <FaMailBulk size={25}/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <img
+                            className="object-cover w-full h-80  md:h-64 xl:h-80"
+                            src={mitesh}
+                            alt="Person"
+                        />
+                        <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+                            <p className="mb-1 text-lg font-bold text-gray-100">
+                            Mitesh Kulkarni
+                            </p>
+                            <p className="mb-4 text-xs text-gray-100">
+                            Media Head
+                            </p>
+                            {/* <p className="mb-4 text-xs tracking-wide text-gray-400">
+                                Lorizzle ipsum bling bling sit amizzle,
+                                consectetuer adipiscing elit.
+                            </p> */}
+                             <div className="flex items-center justify-center space-x-3">
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                   <FaLinkedin size={25}/>
+                                </a>
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                  <FaMailBulk size={25}/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <img
+                            className="object-cover w-full h-80  md:h-64 xl:h-80"
+                            src={prathamesh}
+                            alt="Person"
+                        />
+                        <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+                            <p className="mb-1 text-lg font-bold text-gray-100">
+                               Prathamesh Bhagwat
+                            </p>
+                            <p className="mb-4 text-xs text-gray-100">
+                            Design Head
+                            </p>
+                            {/* <p className="mb-4 text-xs tracking-wide text-gray-400">
+                                Lorizzle ipsum bling bling sit amizzle,
+                                consectetuer adipiscing elit.
+                            </p> */}
+                           <div className="flex items-center justify-center space-x-3">
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                   <FaLinkedin size={25}/>
+                                </a>
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                  <FaMailBulk size={25}/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <img
+                            className="object-cover w-full h-80 md:h-64 xl:h-80"
+                            src={jayesh}
+                            alt="Person"
+                        />
+                        <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+                            <p className="mb-1 text-lg font-bold text-gray-100">
+                            Jayesh Surywanshi
+                            </p>
+                            <p className="mb-4 text-xs text-gray-100">
+                            Startup Executive
+                            </p>
+                            {/* <p className="mb-4 text-xs tracking-wide text-gray-400">
+                                Bacon ipsum dolor sit amet salami jowl corned
+                                beef, andouille flank.
+                            </p> */}
+                          <div className="flex items-center justify-center space-x-3">
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                   <FaLinkedin size={25}/>
+                                </a>
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                  <FaMailBulk size={25}/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <img
+                            className="object-cover w-full h-80  md:h-64 xl:h-80"
+                            src={gauri}
+                            alt="Person"
+                        />
+                        <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+                            <p className="mb-1 text-lg font-bold text-gray-100">
+                            Gauri Jadhav
+                            </p>
+                            <p className="mb-4 text-xs text-gray-100">
+                            Aesthetics Head
+                            </p>
+                            {/* <p className="mb-4 text-xs tracking-wide text-gray-400">
+                                Moonfish, steelhead, lamprey southern flounder
+                                tadpole fish bigeye.
+                            </p> */}
+                              <div className="flex items-center justify-center space-x-3">
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                   <FaLinkedin size={25}/>
+                                </a>
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                  <FaMailBulk size={25}/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <img
+                            className="object-cover w-full h-80  md:h-64 xl:h-80"
+                            src={shreya1}
+                            alt="Person"
+                        />
+                        <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+                            <p className="mb-1 text-lg font-bold text-gray-100">
+                            Shreya V. Patil
+                            </p>
+                            <p className="mb-4 text-xs text-gray-100">
+                            Documentation Head
+                            </p>
+                            {/* <p className="mb-4 text-xs tracking-wide text-gray-400">
+                                Veggies sunt bona vobis, proinde vos postulo
+                                esse magis grape pea.
+                            </p> */}
+                             <div className="flex items-center justify-center space-x-3">
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                   <FaLinkedin size={25}/>
+                                </a>
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                  <FaMailBulk size={25}/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <img
+                            className="object-cover w-full h-80  md:h-64 xl:h-80"
+                            src={shreya2}
+                            alt="Person"
+                        />
+                        <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+                            <p className="mb-1 text-lg font-bold text-gray-100">
+                            Shreya S. Patil
+                            </p>
+                            <p className="mb-4 text-xs text-gray-100">
+                            Documentation Co-Head
+                            </p>
+                            {/* <p className="mb-4 text-xs tracking-wide text-gray-400">
+                                I love cheese, especially airedale queso. Cheese
+                                and biscuits halloumi.
+                            </p> */}
+                              <div className="flex items-center justify-center space-x-3">
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                   <FaLinkedin size={25}/>
+                                </a>
+                                <a
+                                    href="/"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                  <FaMailBulk size={25}/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
             </div>
         </div>
     );

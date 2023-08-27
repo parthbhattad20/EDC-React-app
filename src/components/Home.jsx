@@ -2,14 +2,7 @@ import React from "react";
 import { Slide } from "react-awesome-reveal";
 import bgimg from "../assests/bgimg4.jpg";
 
-
 const Home = () => {
-
-
-  
-
-
-
     return (
         <div
             name="home"
@@ -49,7 +42,7 @@ const Home = () => {
                         href="https://master--ecell-events.netlify.app/"
                         className="text-white border-2 border-[#3E8DE3] py-2 px-4 rounded-md font-semibold transition hover:bg-[#4ECEE6] duration-300"
                     >
-                        Explore Events
+                        Explore previous Events
                     </a>
                     <div className=" bg-black fixed bottom-1 right-1 hover:opacity-100 transition duration-300">
                         <h1 className="text-white ">Scroll down</h1>
