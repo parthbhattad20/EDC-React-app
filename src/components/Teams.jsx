@@ -25,12 +25,12 @@ const Teams = () => {
             <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
                 <div className="text-center text-white text-4xl">
                     <Fade>
-                    <p className="inline-block px-3 py-px mb-4  font-semibold tracking-wider text-[#1E3A8A] uppercase rounded-full bg-teal-accent-400">
+                    <p className=" font-bold inline-block px-3 py-px mb-4 tracking-wider text-[#1E3A8A] uppercase rounded-full bg-teal-accent-400">
                         Meet The Team
                     </p>
                     </Fade>
                 </div>
-                <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+                <h2 className="max-w-lg mb-2 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
                     <span className="relative inline-block">
                         <svg
                             viewBox="0 0 52 24"
@@ -64,13 +64,15 @@ const Teams = () => {
             </div>
             <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
                 <div>
-                    <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                    <div className=" items-center justify-center relative overflow-hidden transition duration-300 transform rounded-lg shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                         
                         <img
-                            className="object-cover w-full h-80 md:h-64 xl:h-80"
+                            className="object-cover rounded-xl object-center border-2 border-gray-500  w-full h-80 md:h-64  xl:h-80  "
                             src={Swaroop}
                             alt="Person"
                         />
+                        
+                      
                         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-lg font-bold text-gray-100">
                             Swaroop Bharaskar
@@ -101,7 +103,7 @@ const Teams = () => {
                 <div>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                         <img
-                            className="object-cover w-full h-80 md:h-64 xl:h-80"
+                            className="object-cover border-2 rounded-xl object-center border-2 border-gray-500  w-full h-80 md:h-64 xl:h-80 "
                             src={sharvari}
                             alt="Person"
                         />
@@ -136,7 +138,7 @@ const Teams = () => {
                 <div>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                         <img
-                            className="object-cover w-full h-80 md:h-64 xl:h-80"
+                            className="object-cover border-2 rounded-xl object-center border-2 border-gray-500  w-full h-80 md:h-64 xl:h-80"
                             src={shreekar}
                             alt="Person"
                         />
@@ -155,19 +157,13 @@ const Teams = () => {
                                     href="/"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
-                                 
+                                   <FaLinkedin size={25}/>
                                 </a>
                                 <a
                                     href="/"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
-                                    <svg
-                                        viewBox="0 0 24 24"
-                                        fill="currentColor"
-                                        className="h-5"
-                                    >
-                                        <path d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z" />
-                                    </svg>
+                                  <FaMailBulk size={25}/>
                                 </a>
                             </div>
                         </div>
@@ -176,7 +172,7 @@ const Teams = () => {
                 <div>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                         <img
-                            className="object-cover w-full h-80  md:h-64 xl:h-80"
+                            className="object-cover border-2 rounded-xl object-center border-2 border-gray-500 w-full h-80  md:h-64 xl:h-80"
                             src={anushray}
                             alt="Person"
                         />
@@ -211,7 +207,7 @@ const Teams = () => {
                 <div>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                         <img
-                            className="object-cover w-full h-80 md:h-64 xl:h-80"
+                            className="object-cover border-2 rounded-xl object-center border-2 border-gray-500 w-full h-80 md:h-64 xl:h-80"
                             src={ruchita}
                             alt="Person"
                         />
@@ -222,10 +218,10 @@ const Teams = () => {
                             <p className="mb-4 text-xs text-gray-100">
                             Thrust Secretary
                             </p>
-                            <p className="mb-4 text-xs tracking-wide text-gray-400">
+                            {/* <p className="mb-4 text-xs tracking-wide text-gray-400">
                                 Lorizzle ipsum bling bling sit amizzle,
                                 consectetuer adipiscing elit.
-                            </p>
+                            </p> */}
                             <div className="flex items-center justify-center space-x-3">
                                 <a
                                     href="/"
@@ -246,7 +242,7 @@ const Teams = () => {
                 <div>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                         <img
-                            className="object-cover w-full h-80  md:h-64 xl:h-80"
+                            className="object-cover border-2 rounded-xl object-center border-2 border-gray-500  w-full h-80  md:h-64 xl:h-80"
                             src={parth}
                             alt="Person"
                         />
@@ -280,7 +276,7 @@ const Teams = () => {
                 <div>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                         <img
-                            className="object-cover w-full h-80 md:h-64 xl:h-80"
+                            className="object-cover border-2 rounded-xl object-center border-2 border-gray-500  w-full h-80 md:h-64 xl:h-80"
                             src={pritam}
                             alt="Person"
                         />
@@ -314,7 +310,7 @@ const Teams = () => {
                 <div>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                         <img
-                            className="object-cover w-full h-80  md:h-64 xl:h-80"
+                            className="object-cover w-full h-80 border-2 rounded-xl object-center border-2 border-gray-500  md:h-64 xl:h-80"
                             src={rajasee}
                             alt="Person"
                         />
@@ -349,7 +345,7 @@ const Teams = () => {
                 <div>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                         <img
-                            className="object-cover w-full h-80 md:h-64 xl:h-80"
+                            className="object-cover w-full h-80 border-2 rounded-xl object-center border-2 border-gray-500 md:h-64 xl:h-80"
                             src={prithvi}
                             alt="Person"
                         />
@@ -385,7 +381,7 @@ const Teams = () => {
                 <div>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                         <img
-                            className="object-cover w-full h-80  md:h-64 xl:h-80"
+                            className="object-cover w-full h-80 border-2 rounded-xl object-center border-2 border-gray-500  md:h-64 xl:h-80"
                             src={mitesh}
                             alt="Person"
                         />
@@ -420,7 +416,7 @@ const Teams = () => {
                 <div>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                         <img
-                            className="object-cover w-full h-80  md:h-64 xl:h-80"
+                            className="object-cover w-full h-80 border-2 rounded-xl object-center border-2 border-gray-500 md:h-64 xl:h-80"
                             src={prathamesh}
                             alt="Person"
                         />
@@ -456,7 +452,7 @@ const Teams = () => {
                 <div>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                         <img
-                            className="object-cover w-full h-80 md:h-64 xl:h-80"
+                            className="object-cover w-full h-80 border-2 rounded-xl object-center border-2 border-gray-500  md:h-64 xl:h-80"
                             src={jayesh}
                             alt="Person"
                         />
@@ -491,7 +487,7 @@ const Teams = () => {
                 <div>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                         <img
-                            className="object-cover w-full h-80  md:h-64 xl:h-80"
+                            className="object-cover w-full h-80 border-2 rounded-xl object-center border-2 border-gray-500  md:h-64 xl:h-80"
                             src={gauri}
                             alt="Person"
                         />
@@ -526,7 +522,7 @@ const Teams = () => {
                 <div>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                         <img
-                            className="object-cover w-full h-80  md:h-64 xl:h-80"
+                            className="object-cover w-full h-80 border-2 rounded-xl object-center border-2 border-gray-500 md:h-64 xl:h-80"
                             src={shreya1}
                             alt="Person"
                         />
@@ -561,7 +557,7 @@ const Teams = () => {
                 <div>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                         <img
-                            className="object-cover w-full h-80  md:h-64 xl:h-80"
+                            className="object-cover w-full h-80 border-2 rounded-xl object-center border-2 border-gray-500  md:h-64 xl:h-80"
                             src={shreya2}
                             alt="Person"
                         />

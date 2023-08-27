@@ -7,7 +7,7 @@ const AchievementsPage = () => {
 
     return (
         <div name="achievements" className="container mx-auto  px-4 text-center ">
-            <h1 className=" font-semibold mb-10 text-4xl  text-[#1E3A8A] ">Achievements</h1>
+            <h1 className="  mb-10 text-4xl  text-[#1E3A8A] uppercase  font-bold">Achievements</h1>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2">
                 <Achievement
                     image={achievementImage}
