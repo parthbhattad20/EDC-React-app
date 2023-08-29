@@ -17,11 +17,12 @@ import shreya2 from "../assests/spp.jpeg";
 import { FaLinkedin ,FaMailBulk} from "react-icons/fa";
 
 
-import { Fade } from "react-awesome-reveal";
+
+import { Fade ,Slide} from "react-awesome-reveal";
 
 const Teams = () => {
     return (
-        <div name="team" className="px-4 py-3 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-3">
+        <div name="team" className="px-4 py-3 mb-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-3">
             <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
                 <div className="text-center text-white text-4xl">
                     <Fade>
@@ -65,12 +66,13 @@ const Teams = () => {
             <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
                 <div>
                     <div className=" items-center justify-center relative overflow-hidden transition duration-300 transform rounded-lg shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
-                        
+                        <Slide triggerOnce={true}>
                         <img
-                            className="object-cover rounded-xl object-center border-2 border-gray-500  w-full h-80 md:h-64  xl:h-80  "
+                            className=" w-60 h-60 object-cover rounded-xl object-center border-2 border-gray-500  md:h-64  xl:h-80 xl:w-full mx-auto  "
                             src={Swaroop}
                             alt="Person"
                         />
+                        </Slide>
                         
                       
                         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -102,11 +104,13 @@ const Teams = () => {
                 </div>
                 <div>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <Slide triggerOnce={true} direction="right">
                         <img
-                            className="object-cover border-2 rounded-xl object-center border-2 border-gray-500  w-full h-80 md:h-64 xl:h-80 "
+                            className=" w-60 h-60 object-cover border-2 rounded-xl object-center border-2 border-gray-500  md:h-64 xl:h-80 xl:w-full mx-auto "
                             src={sharvari}
                             alt="Person"
                         />
+                        </Slide>
                         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-lg font-bold text-gray-100">
                                 Sharvari Karhe
@@ -137,11 +141,13 @@ const Teams = () => {
                 </div>
                 <div>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <Slide triggerOnce={true} >
                         <img
-                            className="object-cover border-2 rounded-xl object-center border-2 border-gray-500  w-full h-80 md:h-64 xl:h-80"
+                            className=" w-60 h-60 object-cover border-2 rounded-xl object-center border-2 border-gray-500  md:h-64 xl:h-80 xl:w-full mx-auto"
                             src={shreekar}
                             alt="Person"
                         />
+                        </Slide>
                         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-lg font-bold text-gray-100">
                                 Shreekar Kulkarni
@@ -171,11 +177,13 @@ const Teams = () => {
                 </div>
                 <div>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <Slide triggerOnce={true} direction="right">
                         <img
-                            className="object-cover border-2 rounded-xl object-center border-2 border-gray-500 w-full h-80  md:h-64 xl:h-80"
+                            className=" w-60 h-60 object-cover border-2 rounded-xl object-center border-2 border-gray-500 md:h-64 xl:h-80 xl:w-full mx-auto"
                             src={anushray}
                             alt="Person"
                         />
+                        </Slide>
                         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-lg font-bold text-gray-100">
                             Anushray Pingale
@@ -206,11 +214,13 @@ const Teams = () => {
                 </div>
                 <div>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <Slide triggerOnce={true}>
                         <img
-                            className="object-cover border-2 rounded-xl object-center border-2 border-gray-500 w-full h-80 md:h-64 xl:h-80"
+                            className=" w-60 h-60 object-cover border-2 rounded-xl object-center border-2 border-gray-500 md:h-64 xl:h-80 xl:w-full mx-auto"
                             src={ruchita}
                             alt="Person"
                         />
+                        </Slide>
                         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-lg font-bold text-gray-100">
                             Ruchita Kagne
@@ -241,11 +251,13 @@ const Teams = () => {
                 </div>
                 <div>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <Slide triggerOnce={true} direction="right"> 
                         <img
-                            className="object-cover border-2 rounded-xl object-center border-2 border-gray-500  w-full h-80  md:h-64 xl:h-80"
+                            className=" w-60 h-60 object-cover border-2 rounded-xl object-center border-2 border-gray-500 md:h-64 xl:h-80 xl:w-full mx-auto"
                             src={parth}
                             alt="Person"
                         />
+                        </Slide>
                         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-lg font-bold text-gray-100">
                                Parth Bhattad
@@ -275,11 +287,13 @@ const Teams = () => {
                 </div>
                 <div>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <Slide triggerOnce={true}>
                         <img
-                            className="object-cover border-2 rounded-xl object-center border-2 border-gray-500  w-full h-80 md:h-64 xl:h-80"
+                            className="w-60 h-60 object-cover border-2 rounded-xl object-center border-2 border-gray-500 md:h-64 xl:h-80 xl:w-full mx-auto"
                             src={pritam}
                             alt="Person"
                         />
+                        </Slide>
                         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-lg font-bold text-gray-100">
                             Pritam Patil
@@ -309,11 +323,13 @@ const Teams = () => {
                 </div>
                 <div>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <Slide triggerOnce={true} direction="right">
                         <img
-                            className="object-cover w-full h-80 border-2 rounded-xl object-center border-2 border-gray-500  md:h-64 xl:h-80"
+                            className=" w-60 h-60 object-cover border-2 rounded-xl object-center border-2 border-gray-500  md:h-64 xl:h-80 xl:w-full mx-auto"
                             src={rajasee}
                             alt="Person"
                         />
+                        </Slide>
                         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-lg font-bold text-gray-100">
                             Rajasee Thakre
@@ -344,11 +360,13 @@ const Teams = () => {
                 </div>
                 <div>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <Slide triggerOnce={true}>
                         <img
-                            className="object-cover w-full h-80 border-2 rounded-xl object-center border-2 border-gray-500 md:h-64 xl:h-80"
+                            className=" w-60 h-60 object-cover border-2 rounded-xl object-center border-2 border-gray-500 md:h-64 xl:h-80 xl:w-full mx-auto"
                             src={prithvi}
                             alt="Person"
                         />
+                        </Slide>
                         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-lg font-bold text-gray-100">
                             Prithviraj Patil
@@ -380,11 +398,13 @@ const Teams = () => {
 
                 <div>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <Slide triggerOnce={true} direction="right">
                         <img
-                            className="object-cover w-full h-80 border-2 rounded-xl object-center border-2 border-gray-500  md:h-64 xl:h-80"
+                            className="w-60 h-60 object-cover border-2 rounded-xl object-center border-2 border-gray-500  md:h-64 xl:h-80 xl:w-full mx-auto"
                             src={mitesh}
                             alt="Person"
                         />
+                        </Slide>
                         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-lg font-bold text-gray-100">
                             Mitesh Kulkarni
@@ -415,11 +435,13 @@ const Teams = () => {
                 </div>
                 <div>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <Slide triggerOnce={true}>
                         <img
-                            className="object-cover w-full h-80 border-2 rounded-xl object-center border-2 border-gray-500 md:h-64 xl:h-80"
+                            className="w-60 h-60 object-cover border-2 rounded-xl object-center border-2 border-gray-500 md:h-64 xl:h-80 xl:w-full mx-auto"
                             src={prathamesh}
                             alt="Person"
                         />
+                        </Slide>
                         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-lg font-bold text-gray-100">
                                Prathamesh Bhagwat
@@ -451,11 +473,13 @@ const Teams = () => {
                 
                 <div>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <Slide triggerOnce={true} direction="right">
                         <img
-                            className="object-cover w-full h-80 border-2 rounded-xl object-center border-2 border-gray-500  md:h-64 xl:h-80"
+                            className="w-60 h-60 -cover border-2 rounded-xl object-center border-2 border-gray-500  md:h-64 xl:h-80 xl:w-full mx-auto"
                             src={jayesh}
                             alt="Person"
                         />
+                        </Slide>
                         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-lg font-bold text-gray-100">
                             Jayesh Surywanshi
@@ -486,11 +510,13 @@ const Teams = () => {
                 </div>
                 <div>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <Slide triggerOnce={true}>
                         <img
-                            className="object-cover w-full h-80 border-2 rounded-xl object-center border-2 border-gray-500  md:h-64 xl:h-80"
+                            className="w-60 h-60 object-cover border-2 rounded-xl object-center border-2 border-gray-500  md:h-64 xl:h-80 xl:w-full mx-auto"
                             src={gauri}
                             alt="Person"
                         />
+                        </Slide>
                         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-lg font-bold text-gray-100">
                             Gauri Jadhav
@@ -521,11 +547,13 @@ const Teams = () => {
                 </div>
                 <div>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <Slide triggerOnce={true} direction="right">
                         <img
-                            className="object-cover w-full h-80 border-2 rounded-xl object-center border-2 border-gray-500 md:h-64 xl:h-80"
+                            className="w-60 h-60 object-cover border-2 rounded-xl object-center border-2 border-gray-500 md:h-64 xl:h-80 xl:w-full mx-auto"
                             src={shreya1}
                             alt="Person"
                         />
+                        </Slide>
                         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-lg font-bold text-gray-100">
                             Shreya V. Patil
@@ -556,11 +584,13 @@ const Teams = () => {
                 </div>
                 <div>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <Slide triggerOnce={true}>
                         <img
-                            className="object-cover w-full h-80 border-2 rounded-xl object-center border-2 border-gray-500  md:h-64 xl:h-80"
+                            className="w-60 h-60 object-cover border-2 rounded-xl object-center border-2 border-gray-500  md:h-64 xl:h-80 xl:w-full mx-auto"
                             src={shreya2}
                             alt="Person"
                         />
+                        </Slide>
                         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-lg font-bold text-gray-100">
                             Shreya S. Patil
