@@ -2,7 +2,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-
+import FAQs from "./components/Faqs";
 import Teams from "./components/Teams";
 import Footer from "./components/Footer";
 import AchievementsPage from "./components/AchivementsPage";
@@ -46,6 +46,9 @@ function App() {
 
                     <div>
                         <AchievementsPage />
+                    </div>
+                    <div>
+                        <FAQs />
                     </div>
                     <div>
                         <Contact />

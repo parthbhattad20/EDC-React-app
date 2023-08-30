@@ -79,6 +79,19 @@ const Navbar = () => {
                     </li>
                     <li className="nav-item">
                         <Link
+                            to="faqs"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                            className="text-white cursor-pointer transition-colors hover:text-[#1E3A8A]"
+                            onClick={closeMenu}
+                        >
+                            FAQs
+                        </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link
                             to="contact"
                             spy={true}
                             smooth={true}
