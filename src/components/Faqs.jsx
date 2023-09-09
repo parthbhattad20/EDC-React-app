@@ -22,7 +22,7 @@ const FAQs = () => {
             answer: " No, you don't necessarily need a fully developed idea to join the EDC. EDCs are designed to help you at every stage of your entrepreneurial journey, from idea generation to business development. Even if you only have a concept, you can benefit from the guidance, mentorship, and resources the EDC provides."
         },
         {
-            question: "DHow can EDC help me turn my startup idea into a real business?",
+            question: "How can EDC help me turn my startup idea into a real business?",
             answer: " EDCs provide a supportive ecosystem for budding entrepreneurs. They can help you refine your idea through workshops and feedback sessions, connect you with potential team members or co-founders, provide business model validation, and guide you through the steps of creating a viable business plan."
         },
     ];

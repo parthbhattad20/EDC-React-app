@@ -25,8 +25,8 @@ const Teams = () => {
         <div name="team" className="px-4 py-3 mb-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-3">
             <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
                 <div className="text-center text-white text-4xl">
-                    <Fade>
-                    <p className=" font-bold inline-block px-3 py-px mb-4 tracking-wider text-[#1E3A8A] uppercase rounded-full bg-teal-accent-400">
+                    <Fade triggerOnce={true}>
+                    <p className="font-bold inline-block px-3 py-px mb-4 tracking-wider text-[#1E3A8A] uppercase rounded-full bg-teal-accent-400">
                         Meet The Team
                     </p>
                     </Fade>

@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import logo from "../assests/edclogo.png";
 import { Link } from "react-scroll";
 
+
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -52,7 +53,7 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link
+                    <Link
                             to="team"
                             spy={true}
                             smooth={true}

@@ -2,6 +2,7 @@ import React from "react";
 import { Slide } from "react-awesome-reveal";
 import bgimg from "../assests/bgimg4.jpg";
 
+
 const Home = () => {
     return (
         <div
@@ -14,7 +15,7 @@ const Home = () => {
             <div
                 className="max-w-screen mx-auto flex flex-col h-full px-4 md:flex-row"
                 style={{
-                    backdropFilter: "blur(3px)",
+                    backdropFilter: "blur(1px)",
                     backgroundColor: "rgba(0, 0, 0, 0.5)",
                 }}
             >
@@ -22,14 +23,14 @@ const Home = () => {
                     <div>
                         <Slide triggerOnce={true}>
                             <h2 className=" text-3xl sm:text-7xl font-bold text-white mb-6 uppercase font-mono border-b ">
-                                Inspire.
+                                Aspire.deliver
                             </h2>
                         </Slide>
                     </div>
                     <div>
                         <Slide triggerOnce={true}>
                             <h2 className=" mx-auto text-3xl sm:text-7xl font-bold text-white mb-6 uppercase font-mono border-b">
-                                Aspire.Innovate.
+                                inspire.repeat.
                             </h2>
                         </Slide>
                     </div>
