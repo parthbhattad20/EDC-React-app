@@ -16,20 +16,20 @@ const Footer = () => {
         </div>
         <div className="flex space-x-4">
           <a
-            href="https://www.instagram.com/your_instagram_handle/"
+            href="https://www.instagram.com/edc_pvg/?hl=en"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaInstagram size={24} />
           </a>
           <a
-            href="https://www.linkedin.com/in/your_linkedin_handle/"
+            href="https://www.linkedin.com/company/pvgedc/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaLinkedin size={24} />
           </a>
-          <a href="mailto:your@email.com">
+          <a href="mailto:edcpvg@gmail.com">
             <span className="text-lg">edcpvg@gmail.com</span>
           </a>
         </div>

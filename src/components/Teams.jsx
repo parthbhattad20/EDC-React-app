@@ -87,13 +87,13 @@ const Teams = () => {
                             </p> */}
                             <div className="flex items-center justify-center space-x-3">
                                 <a
-                                    href="/"
+                                    href="https://www.linkedin.com/in/swaroopbharaskar"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                    <FaLinkedin size={25}/>
                                 </a>
                                 <a
-                                    href="/"
+                                    href="mailto:swaroopbharaskar20@gmail.com"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                   <FaMailBulk size={25}/>
@@ -124,13 +124,13 @@ const Teams = () => {
                             </p> */}
                             <div className="flex items-center justify-center space-x-3">
                                 <a
-                                    href="/"
+                                    href="https://www.linkedin.com/in/sharvari-karhe-194225208/"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                   <FaLinkedin size={25}/>
                                 </a>
                                 <a
-                                    href="/"
+                                    href="mailto:sharvarikarhe24@gmail.com"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                  <FaMailBulk size={25}/>
@@ -160,13 +160,13 @@ const Teams = () => {
                             </p>
                             <div className="flex items-center justify-center space-x-3">
                                 <a
-                                    href="/"
+                                    href="https://www.linkedin.com/in/shreekar-kulkarni-"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                    <FaLinkedin size={25}/>
                                 </a>
                                 <a
-                                    href="/"
+                                    href="mailto:shrikarkulkarni42@gmail.com"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                   <FaMailBulk size={25}/>
@@ -197,13 +197,13 @@ const Teams = () => {
                             </p> */}
                               <div className="flex items-center justify-center space-x-3">
                                 <a
-                                    href="/"
+                                    href="https://www.linkedin.com/in/anushray-pingale-431644202"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                    <FaLinkedin size={25}/>
                                 </a>
                                 <a
-                                    href="/"
+                                    href="mailto:anushraypingale8@gmail.com"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                   <FaMailBulk size={25}/>
@@ -234,13 +234,13 @@ const Teams = () => {
                             </p> */}
                             <div className="flex items-center justify-center space-x-3">
                                 <a
-                                    href="/"
+                                    href="https://www.linkedin.com/in/ruchita-kagne-2a98ba21b"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                    <FaLinkedin size={25}/>
                                 </a>
                                 <a
-                                    href="/"
+                                    href="mailto:rkkagne1032@gmail.com"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                   <FaMailBulk size={25}/>
@@ -270,13 +270,13 @@ const Teams = () => {
                             </p> */}
                               <div className="flex items-center justify-center space-x-3">
                                 <a
-                                    href="/"
+                                    href="https://www.linkedin.com/in/parth-bhattad-21a38022a/"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                    <FaLinkedin size={25}/>
                                 </a>
                                 <a
-                                    href="/"
+                                    href="mailto:bhattadparth20@gmail.com"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                   <FaMailBulk size={25}/>
@@ -306,13 +306,13 @@ const Teams = () => {
                             </p> */}
                               <div className="flex items-center justify-center space-x-3">
                                 <a
-                                    href="/"
+                                    href="https://www.linkedin.com/in/pritam-patil-53245b207"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                    <FaLinkedin size={25}/>
                                 </a>
                                 <a
-                                    href="/"
+                                    href="mailto:pritampatil4602@gmail.com"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                   <FaMailBulk size={25}/>
@@ -343,13 +343,13 @@ const Teams = () => {
                             </p> */}
                             <div className="flex items-center justify-center space-x-3">
                                 <a
-                                    href="/"
+                                    href="https://www.linkedin.com/in/rajasee-thakre-0526a0209"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                    <FaLinkedin size={25}/>
                                 </a>
                                 <a
-                                    href="/"
+                                    href="mailto:thakrerajasee341@gmail.com"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                   <FaMailBulk size={25}/>
@@ -380,13 +380,13 @@ const Teams = () => {
                             </p> */}
                             <div className="flex items-center justify-center space-x-3">
                                 <a
-                                    href="/"
+                                    href="https://www.linkedin.com/in/prithviraj-patil-b91219215"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                    <FaLinkedin size={25}/>
                                 </a>
                                 <a
-                                    href="/"
+                                    href="mailto:prithvi.patil183@gmail.com"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                   <FaMailBulk size={25}/>
@@ -418,13 +418,13 @@ const Teams = () => {
                             </p> */}
                              <div className="flex items-center justify-center space-x-3">
                                 <a
-                                    href="/"
+                                    href="https://www.linkedin.com/in/mitesh-kulkarni-913aa41b8"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                    <FaLinkedin size={25}/>
                                 </a>
                                 <a
-                                    href="/"
+                                    href="mailto:miteshhk05@gmail.com"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                   <FaMailBulk size={25}/>
@@ -455,13 +455,13 @@ const Teams = () => {
                             </p> */}
                            <div className="flex items-center justify-center space-x-3">
                                 <a
-                                    href="/"
+                                    href="https://www.linkedin.com/in/prathamesh-bhagwat-712485204"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                    <FaLinkedin size={25}/>
                                 </a>
                                 <a
-                                    href="/"
+                                    href="mailto:prathmeshbhagwat37@gmail.com"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                   <FaMailBulk size={25}/>
@@ -493,13 +493,13 @@ const Teams = () => {
                             </p> */}
                           <div className="flex items-center justify-center space-x-3">
                                 <a
-                                    href="/"
+                                    href="https://www.linkedin.com/in/jayesh-suryawanshi-73b48b20a/"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                    <FaLinkedin size={25}/>
                                 </a>
                                 <a
-                                    href="/"
+                                    href="mailto:Jayeshsuryawanshi007@gmail.com"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                   <FaMailBulk size={25}/>
@@ -530,13 +530,13 @@ const Teams = () => {
                             </p> */}
                               <div className="flex items-center justify-center space-x-3">
                                 <a
-                                    href="/"
+                                    href="https://www.linkedin.com/in/gauri-jadhav-388233228"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                    <FaLinkedin size={25}/>
                                 </a>
                                 <a
-                                    href="/"
+                                    href="mailto:gvjadhav039@gmail.com"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                   <FaMailBulk size={25}/>
@@ -567,13 +567,13 @@ const Teams = () => {
                             </p> */}
                              <div className="flex items-center justify-center space-x-3">
                                 <a
-                                    href="/"
+                                    href="https://www.linkedin.com/in/shreya-patil-5b9b1725b/"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                    <FaLinkedin size={25}/>
                                 </a>
                                 <a
-                                    href="/"
+                                    href="mailto:shreya0987p@gmail.com"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                   <FaMailBulk size={25}/>
@@ -604,13 +604,13 @@ const Teams = () => {
                             </p> */}
                               <div className="flex items-center justify-center space-x-3">
                                 <a
-                                    href="/"
+                                    href="https://www.linkedin.com/in/shreya-p-955ab3232"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                    <FaLinkedin size={25}/>
                                 </a>
                                 <a
-                                    href="/"
+                                    href="mailto:shreya2303sp@gmail.com"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                   <FaMailBulk size={25}/>
