@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.429c0057.css",
+    "main.js": "/static/js/main.5e46c5c9.js",
+    "static/media/swaroop.jpg": "/static/media/swaroop.fb12b011c9c465607fb4.jpg",
+    "static/media/bgimg4.jpg": "/static/media/bgimg4.75007c6dff5c3bc5b0d7.jpg",
+    "static/media/bgimg.jpg": "/static/media/bgimg.40b628b5a9e2072e2ac7.jpg",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/rt2.jpeg": "/static/media/rt2.ee46aae0f39e0421ac79.jpeg",
+    "static/media/sps.jpeg": "/static/media/sps.e8b93f995441b1e62bde.jpeg",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/preloader.gif.gif": "/static/media/preloader.gif.56fc20a0b7b2440398ab.gif",
+    "static/media/nec.jpeg": "/static/media/nec.2b7aeb3872aa30e0de34.jpeg",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/pp2.jpeg": "/static/media/pp2.62dba05948b6c07f3a67.jpeg",
+    "static/media/parb.jpeg": "/static/media/parb.f6f990fa4b2b05b1ee1d.jpeg",
+    "static/media/sk43.jpeg": "/static/media/sk43.27c4fb6b4d3036d8b675.jpeg",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/shrik.jpeg": "/static/media/shrik.e7d8d1a6ca8ae6da06d2.jpeg",
+    "static/media/jd.jpeg": "/static/media/jd.6c7764828dd45258bc6c.jpeg",
+    "static/media/pp.jpeg": "/static/media/pp.c8e6c7e761b96ec10259.jpeg",
+    "static/media/ruchita.jpeg": "/static/media/ruchita.02b8ff14cee4efdc425d.jpeg",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/ap.jpeg": "/static/media/ap.b764e4618048e93ae0c4.jpeg",
+    "static/media/spp.jpeg": "/static/media/spp.80b89ff126379969302a.jpeg",
+    "static/media/mk.jpeg": "/static/media/mk.f8527102befd78bf3166.jpeg",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/edclogo.png": "/static/media/edclogo.68fd354a38b134f1ba6c.png",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "index.html": "/index.html",
+    "main.429c0057.css.map": "/static/css/main.429c0057.css.map",
+    "main.5e46c5c9.js.map": "/static/js/main.5e46c5c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.429c0057.css",
+    "static/js/main.5e46c5c9.js"
+  ]
+}
