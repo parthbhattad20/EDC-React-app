@@ -1,7 +1,7 @@
 import React from "react";
 import Swaroop from "../assests/swaroop.jpg";
 import sharvari from "../assests/sk43.jpeg";
-import shreekar from "../assests/shrik.jpeg";
+import shreekar from "../assests/ShreekarKulkarni.jpeg";
 import anushray from "../assests/ap.jpeg";
 import ruchita from "../assests/ruchita.jpeg";
 import mitesh from "../assests/mk.jpeg";
@@ -13,7 +13,10 @@ import jayesh from "../assests/jd.jpeg";
 import rajasee from "../assests/rt2.jpeg";
 import gauri from "../assests/gj.jpeg";
 import shreya1 from "../assests/sps.jpeg";
-import shreya2 from "../assests/spp.jpeg";
+import shreya2 from "../assests/shreyaPatil.jpeg";
+import jaiswalSir from "../assests/jaiswal-sir.png"
+import ritin from "../assests/Ritinedc-1.jpg"
+import sharvin from "../assests/Sharvin.jpeg"
 import { FaLinkedin ,FaMailBulk} from "react-icons/fa";
 
 
@@ -26,7 +29,7 @@ const Teams = () => {
             <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
                 <div className="text-center text-white text-4xl">
                     <Fade triggerOnce={true}>
-                    <p className="font-bold inline-block px-3 py-px mb-4 tracking-wider text-[#1E3A8A] uppercase rounded-full bg-teal-accent-400">
+                    <p className="font-bold inline-block px-3 py-px mb-4 tracking-wider text-[#00FFFF] uppercase rounded-full bg-teal-accent-400">
                         Meet The Team
                     </p>
                     </Fade>
@@ -63,7 +66,122 @@ const Teams = () => {
                    
                 </p>
             </div>
+            
             <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+                <div>
+                    <div className=" items-center justify-center relative overflow-hidden transition duration-300 transform rounded-lg shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <Slide triggerOnce={true}>
+                        <img
+                            className=" w-60 h-60 object-cover rounded-xl object-center border-2 border-gray-500  md:h-64  xl:h-80 xl:w-full mx-auto  "
+                            src={jaiswalSir}
+                            alt="Person"
+                        />
+                        </Slide>
+                        
+                      
+                        <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+                            <p className="mb-1 text-lg font-bold text-gray-100">
+                            Prof N.G Jaiswal
+                            </p>
+                            <p className="mb-4 text-xs text-gray-100">
+                            Faculty Co-ordinator
+                            </p>
+                            {/* <p className="mb-4 text-xs tracking-wide text-gray-400">
+                               
+                            </p> */}
+                            <div className="flex items-center justify-center space-x-3">
+                                <a
+                                    href="https://www.linkedin.com/in/drngjaiswal/?originalSubdomain=in"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                   <FaLinkedin size={25}/>
+                                </a>
+                                <a
+                                    href="mailto:ngj_mech@pvgcoet.ac.in"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                  <FaMailBulk size={25}/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className=" items-center justify-center relative overflow-hidden transition duration-300 transform rounded-lg shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <Slide triggerOnce={true}>
+                        <img
+                            className=" w-60 h-60 object-cover rounded-xl object-center border-2 border-gray-500  md:h-64  xl:h-80 xl:w-full mx-auto  "
+                            src={sharvin}
+                            alt="Person"
+                        />
+                        </Slide>
+                        
+                      
+                        <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+                            <p className="mb-1 text-lg font-bold text-gray-100">
+                            Sharvin Pharande
+                            </p>
+                            <p className="mb-4 text-xs text-gray-100">
+                            Mentor
+                            </p>
+                            {/* <p className="mb-4 text-xs tracking-wide text-gray-400">
+                               
+                            </p> */}
+                            <div className="flex items-center justify-center space-x-3">
+                                <a
+                                    href="https://www.linkedin.com/in/sharvin-pharande-2397901a4/?originalSubdomain=in"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                   <FaLinkedin size={25}/>
+                                </a>
+                                <a
+                                    href="mailto:sharvinpharande@gmail.com"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                  <FaMailBulk size={25}/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className=" items-center justify-center relative overflow-hidden transition duration-300 transform rounded-lg shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <Slide triggerOnce={true}>
+                        <img
+                            className=" w-60 h-60 object-cover rounded-xl object-center border-2 border-gray-500  md:h-64  xl:h-80 xl:w-full mx-auto  "
+                            src={ritin}
+                            alt="Person"
+                        />
+                        </Slide>
+                        
+                      
+                        <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+                            <p className="mb-1 text-lg font-bold text-gray-100">
+                            Ritin Wadekar
+                            </p>
+                            <p className="mb-4 text-xs text-gray-100">
+                            Mentor
+                            </p>
+                            {/* <p className="mb-4 text-xs tracking-wide text-gray-400">
+                               
+                            </p> */}
+                            <div className="flex items-center justify-center space-x-3">
+                                <a
+                                    href="https://www.linkedin.com/in/ritin-wadekar/?originalSubdomain=in"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                   <FaLinkedin size={25}/>
+                                </a>
+                                <a
+                                    href="mailto:ritinwadekar6@gmail.com"
+                                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                                >
+                                  <FaMailBulk size={25}/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div>
                     <div className=" items-center justify-center relative overflow-hidden transition duration-300 transform rounded-lg shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                         <Slide triggerOnce={true}>

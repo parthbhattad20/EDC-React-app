@@ -7,7 +7,7 @@ const Contact = () => {
         <section className="">
             <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-lg ">
                 <Slide triggerOnce={true}>
-                <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-[#1E3A8A] text-center uppercase">
+                <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-[#00FFFF] text-center uppercase">
                     Contact Us
                 </h2>
                 
@@ -63,7 +63,7 @@ const Contact = () => {
                     </div>
                     <button
                         type="submit"
-                        className=" border-2 border-[#1E3A8A] py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+                        className=" border-2 border-[#00FFFF] py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
                     >
                         Send message
                     </button>

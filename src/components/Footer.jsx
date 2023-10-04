@@ -30,7 +30,7 @@ const Footer = () => {
             <FaLinkedin size={24} />
           </a>
           <a href="mailto:edcpvg@gmail.com">
-            <span className="text-lg">edcpvg@gmail.com</span>
+            <span className="text-lg">pvgedc@gmail.com</span>
           </a>
         </div>
       </div>

@@ -35,13 +35,13 @@ const Home = () => {
                         </Slide>
                     </div>
                     <Slide triggerOnce={true}>
-                        <h1 className=" text-[#1E3A8A] mx-auto text-4xl sm:text-7xl font-bold  mb-6 uppercase font-serifborder-b">
-                            E-CELL PVG
+                        <h1 className=" text-[#00FFFF] mx-auto text-4xl sm:text-7xl font-bold  mb-6 uppercase font-serifborder-b">
+                            ED-CELL PVG
                         </h1>
                     </Slide>
                     <a
                         href="https://master--ecell-events.netlify.app/"
-                        className="text-white border-2 border-[#3E8DE3] py-2 px-4 rounded-md font-semibold transition hover:bg-[#4ECEE6] duration-300"
+                        className="text-white border-2 border-[#00FFFF] py-2 px-4 rounded-md font-semibold transition hover:bg-[#4ECEE6] duration-300"
                     >
                         Explore Events
                     </a>

@@ -7,15 +7,15 @@ const AchievementsPage = () => {
 
     return (
         <div name="achievements" className="container mx-auto  px-4 text-center ">
-            <h1 className="  mb-10 text-4xl  text-[#1E3A8A] uppercase  font-bold">Achievements</h1>
+            <h1 className="  mb-10 text-4xl  text-[#00FFFF] uppercase  font-bold">Achievements</h1>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2">
                 <Achievement
                     image={achievementImage}
-                    description="A dynamic team from EDC-PVG showcased remarkable innovation at NEC by IIT Bombay, securing a spot in the top 30. Their ingenuity shone in a competitive environment of entrepreneurship."
+                    description="A dedicated team of ED-Cell PVG showcased a remarkable performance at NEC by IIT Bombay, securing an impressive rank 17 and advancing to the semi-finals. This remarkable achievement marked a significant milestone as they became the first college from Pune to reach such a prestigious position in the NEC 2023."
                 />
                     <Achievement
                     image={venturers}
-                    description="E Cell PVG demonstrated exceptional event organization with Venturers 2022 drawing a substantial crowd. Their seamless execution encompassed diverse events, showcasing their prowess in fostering entrepreneurship and innovation within a vibrant community atmosphere."
+                    description="Venturers 2022, led by ED-Cell PVGCOET, was a two-day event that showcased remarkable event planning, attracting a significant audience. It provided a platform for interaction among industry leaders, experts, established and emerging entrepreneurs, academics, and students. The event's flawless execution featured a variety of activities, highlighting their expertise in nurturing entrepreneurship and innovation within a vibrant community setting."
                 />
              
             </div>
