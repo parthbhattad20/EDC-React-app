@@ -16,7 +16,7 @@ import shreya1 from "../assests/sps.jpeg";
 import shreya2 from "../assests/shreyaPatil.jpeg";
 import jaiswalSir from "../assests/jaiswal-sir.png"
 import ritin from "../assests/Ritinedc-1.jpg"
-import sharvin from "../assests/Sharvin.jpeg"
+import Om from "../assests/Om.jpg";
 import { FaLinkedin ,FaMailBulk} from "react-icons/fa";
 
 
@@ -111,7 +111,7 @@ const Teams = () => {
                         <Slide triggerOnce={true}>
                         <img
                             className=" w-60 h-60 object-cover rounded-xl object-center border-2 border-gray-500  md:h-64  xl:h-80 xl:w-full mx-auto  "
-                            src={sharvin}
+                            src={Om}
                             alt="Person"
                         />
                         </Slide>
@@ -119,17 +119,17 @@ const Teams = () => {
                       
                         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-lg font-bold text-gray-100">
-                            Sharvin Pharande
+                            Om Nalagune
                             </p>
                             <p className="mb-4 text-xs text-gray-100">
-                            Mentor
+                            General Secretary
                             </p>
                             {/* <p className="mb-4 text-xs tracking-wide text-gray-400">
                                
                             </p> */}
                             <div className="flex items-center justify-center space-x-3">
                                 <a
-                                    href="https://www.linkedin.com/in/sharvin-pharande-2397901a4/?originalSubdomain=in"
+                                    href="https://www.linkedin.com/in/om-nalagune-55a2b0243/"
                                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                                 >
                                    <FaLinkedin size={25}/>
